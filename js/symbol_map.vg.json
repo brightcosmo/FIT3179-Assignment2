@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Deforestation in",
+  "title": "Deforestation in Malaysia",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
