@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Deforestation in Malaysia",
+  "title": "Net change in tree cover from 2000-2022 in Malaysia",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
@@ -16,21 +16,21 @@
           "url": "../data/Country_carbon_data.csv"
         },
         "key": "subnational1",
-        "fields": ["tc_loss_ha_2003"]
+        "fields": ["change2"]
       }
     },
-    {"calculate": "datum.tc_loss_ha_2003", "as": "Deforestation"}
+    {"calculate": "datum.change2", "as": "Tree Cover Loss"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Deforestation",
+      "field": "Tree Cover Loss",
       "type": "quantitative",
-      "scale": {"type": "log"}
+      "scale": {"type": "linear", "scheme": "reds", "reverse": false}
     },
     "tooltip": [
-      {"field": "id", "type": "nominal", "title": "Country"},
-      {"field": "Deforestation", "type": "quantitative", "title": "Deforestation"}
+      {"field": "id", "type": "nominal", "title": "State"},
+      {"field": "Tree Cover Loss", "type": "quantitative", "title": "% loss"}
     ]
   }
 }
