@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
+  "data": {"url": "../data/carbon_emissions_linechart.csv"},
+  "width": 750,
+  "height": 350,
+  "layer": [
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "axis": {"title": "Year", "format": "%Y"},
+          "scale": {"domain": [{"year": 2001}, {"year": 2022}]}
+        },
+        "y": {
+          "field": "carbon_gross_emissions",
+          "type": "quantitative",
+          "axis": {"title": "Gross Carbon Emissions (Mg CO2e)"}
+        },
+        "color": {
+          "field": "subnational1",
+          "type": "nominal",
+          "legend": {"title": "State"}
+        },
+        "tooltip": [
+          {"field": "subnational1", "type": "nominal", "title": "State"},
+          {"field": "year", "type": "temporal", "title": "Year", "timeUnit": "year"},
+          {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Carbon Emissions (Mg CO2e)"}
+        ]
+      },
+      "selection": {
+        "State": {
+          "type": "multi",
+          "fields": ["subnational1"],
+          "bind": "legend"
+        }
+      },
+      "transform": [
+        {"filter": {"selection": "State"}}
+      ]
+    },
+    {
+      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "encoding": {"x": {"datum": {"year": 2015}, "type": "temporal"}}
+    },
+    {
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": -5, "color": "black", "fontSize": 16, "font": "Roboto, sans-serif"},
+      "encoding": {
+        "x": {"datum": {"year": 2015}, "type": "temporal"},
+        "text": {"value": "2015: Forest Ordinance Law"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": 15, "color": "black", "fontSize": 16, "font": "Roboto, sans-serif"},
+      "encoding": {
+        "x": {"datum": {"year": 2015}, "type": "temporal"},
+        "text": {"value": "to combat illegal logging"}
+      }
+    }
+    
+  ]
+}

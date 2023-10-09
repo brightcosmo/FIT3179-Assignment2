@@ -1,0 +1,353 @@
+country,subnational1,area_ha,year,carbon_gross_emissions
+Malaysia,Johor,1911485,2001,14080994
+Malaysia,Kedah,951787,2001,1257422
+Malaysia,Kelantan,1513205,2001,4294011
+Malaysia,Kuala Lumpur,27198,2001,16189
+Malaysia,Labuan,9066,2001,11563
+Malaysia,Melaka,165403,2001,816616
+Malaysia,Negeri Sembilan,666738,2001,5649208
+Malaysia,Pahang,3585238,2001,15513022
+Malaysia,Perak,2091110,2001,3305594
+Malaysia,Perlis,82349,2001,114229
+Malaysia,Pulau Pinang,105622,2001,16438
+Malaysia,Putrajaya,6173,2001,8546
+Malaysia,Sabah,7372091,2001,30504940
+Malaysia,Sarawak,12379545,2001,50220307
+Malaysia,Selangor,782443,2001,4094673
+Malaysia,Terengganu,1288895,2001,3323453
+Malaysia,Johor,1911485,2002,13434658
+Malaysia,Kedah,951787,2002,3540028
+Malaysia,Kelantan,1513205,2002,3870165
+Malaysia,Kuala Lumpur,27198,2002,55547
+Malaysia,Labuan,9066,2002,10525
+Malaysia,Melaka,165403,2002,796675
+Malaysia,Negeri Sembilan,666738,2002,6817518
+Malaysia,Pahang,3585238,2002,21121808
+Malaysia,Perak,2091110,2002,4718963
+Malaysia,Perlis,82349,2002,58343
+Malaysia,Pulau Pinang,105622,2002,61336
+Malaysia,Putrajaya,6173,2002,13642
+Malaysia,Sabah,7372091,2002,29345748
+Malaysia,Sarawak,12379545,2002,52419183
+Malaysia,Selangor,782443,2002,3378792
+Malaysia,Terengganu,1288895,2002,3805825
+Malaysia,Johor,1911485,2003,5045020
+Malaysia,Kedah,951787,2003,2069481
+Malaysia,Kelantan,1513205,2003,3040321
+Malaysia,Kuala Lumpur,27198,2003,22927
+Malaysia,Labuan,9066,2003,7148
+Malaysia,Melaka,165403,2003,439689
+Malaysia,Negeri Sembilan,666738,2003,2415427
+Malaysia,Pahang,3585238,2003,9584388
+Malaysia,Perak,2091110,2003,2615259
+Malaysia,Perlis,82349,2003,19280
+Malaysia,Pulau Pinang,105622,2003,54152
+Malaysia,Putrajaya,6173,2003,9217
+Malaysia,Sabah,7372091,2003,18733443
+Malaysia,Sarawak,12379545,2003,60203695
+Malaysia,Selangor,782443,2003,1509357
+Malaysia,Terengganu,1288895,2003,2068182
+Malaysia,Johor,1911485,2004,15639807
+Malaysia,Kedah,951787,2004,3310479
+Malaysia,Kelantan,1513205,2004,6649602
+Malaysia,Kuala Lumpur,27198,2004,75157
+Malaysia,Labuan,9066,2004,5786
+Malaysia,Melaka,165403,2004,485070
+Malaysia,Negeri Sembilan,666738,2004,2996328
+Malaysia,Pahang,3585238,2004,21889527
+Malaysia,Perak,2091110,2004,3819849
+Malaysia,Perlis,82349,2004,36824
+Malaysia,Pulau Pinang,105622,2004,82698
+Malaysia,Putrajaya,6173,2004,7440
+Malaysia,Sabah,7372091,2004,43712671
+Malaysia,Sarawak,12379545,2004,91244840
+Malaysia,Selangor,782443,2004,3490271
+Malaysia,Terengganu,1288895,2004,6278519
+Malaysia,Johor,1911485,2005,18440835
+Malaysia,Kedah,951787,2005,3698004
+Malaysia,Kelantan,1513205,2005,6385643
+Malaysia,Kuala Lumpur,27198,2005,36953
+Malaysia,Labuan,9066,2005,13302
+Malaysia,Melaka,165403,2005,1547516
+Malaysia,Negeri Sembilan,666738,2005,4580737
+Malaysia,Pahang,3585238,2005,31515413
+Malaysia,Perak,2091110,2005,6203257
+Malaysia,Perlis,82349,2005,75352
+Malaysia,Pulau Pinang,105622,2005,112505
+Malaysia,Putrajaya,6173,2005,3807
+Malaysia,Sabah,7372091,2005,39521412
+Malaysia,Sarawak,12379545,2005,103637432
+Malaysia,Selangor,782443,2005,3621544
+Malaysia,Terengganu,1288895,2005,5134323
+Malaysia,Johor,1911485,2006,15209180
+Malaysia,Kedah,951787,2006,4106015
+Malaysia,Kelantan,1513205,2006,6363530
+Malaysia,Kuala Lumpur,27198,2006,36568
+Malaysia,Labuan,9066,2006,11292
+Malaysia,Melaka,165403,2006,807212
+Malaysia,Negeri Sembilan,666738,2006,3269610
+Malaysia,Pahang,3585238,2006,23872638
+Malaysia,Perak,2091110,2006,4212511
+Malaysia,Perlis,82349,2006,30347
+Malaysia,Pulau Pinang,105622,2006,95729
+Malaysia,Putrajaya,6173,2006,1500
+Malaysia,Sabah,7372091,2006,44465205
+Malaysia,Sarawak,12379545,2006,97956150
+Malaysia,Selangor,782443,2006,1770912
+Malaysia,Terengganu,1288895,2006,4756703
+Malaysia,Johor,1911485,2007,17115978
+Malaysia,Kedah,951787,2007,3179279
+Malaysia,Kelantan,1513205,2007,13960966
+Malaysia,Kuala Lumpur,27198,2007,26549
+Malaysia,Labuan,9066,2007,23850
+Malaysia,Melaka,165403,2007,1396922
+Malaysia,Negeri Sembilan,666738,2007,4845624
+Malaysia,Pahang,3585238,2007,23869649
+Malaysia,Perak,2091110,2007,6848048
+Malaysia,Perlis,82349,2007,34508
+Malaysia,Pulau Pinang,105622,2007,78606
+Malaysia,Putrajaya,6173,2007,4369
+Malaysia,Sabah,7372091,2007,35082789
+Malaysia,Sarawak,12379545,2007,152903678
+Malaysia,Selangor,782443,2007,3646279
+Malaysia,Terengganu,1288895,2007,4993286
+Malaysia,Johor,1911485,2008,8309024
+Malaysia,Kedah,951787,2008,5351493
+Malaysia,Kelantan,1513205,2008,7472625
+Malaysia,Kuala Lumpur,27198,2008,27813
+Malaysia,Labuan,9066,2008,20062
+Malaysia,Melaka,165403,2008,910917
+Malaysia,Negeri Sembilan,666738,2008,4506273
+Malaysia,Pahang,3585238,2008,17733488
+Malaysia,Perak,2091110,2008,5118860
+Malaysia,Perlis,82349,2008,31794
+Malaysia,Pulau Pinang,105622,2008,78580
+Malaysia,Putrajaya,6173,2008,692
+Malaysia,Sabah,7372091,2008,47199903
+Malaysia,Sarawak,12379545,2008,140234290
+Malaysia,Selangor,782443,2008,2715750
+Malaysia,Terengganu,1288895,2008,6086549
+Malaysia,Johor,1911485,2009,21384172
+Malaysia,Kedah,951787,2009,4130121
+Malaysia,Kelantan,1513205,2009,19492397
+Malaysia,Kuala Lumpur,27198,2009,39754
+Malaysia,Labuan,9066,2009,18570
+Malaysia,Melaka,165403,2009,1455432
+Malaysia,Negeri Sembilan,666738,2009,9115080
+Malaysia,Pahang,3585238,2009,29796939
+Malaysia,Perak,2091110,2009,9814619
+Malaysia,Perlis,82349,2009,93921
+Malaysia,Pulau Pinang,105622,2009,151630
+Malaysia,Putrajaya,6173,2009,5555
+Malaysia,Sabah,7372091,2009,55672027
+Malaysia,Sarawak,12379545,2009,276369034
+Malaysia,Selangor,782443,2009,6326792
+Malaysia,Terengganu,1288895,2009,8730869
+Malaysia,Johor,1911485,2010,13599835
+Malaysia,Kedah,951787,2010,6951273
+Malaysia,Kelantan,1513205,2010,19433725
+Malaysia,Kuala Lumpur,27198,2010,39292
+Malaysia,Labuan,9066,2010,12448
+Malaysia,Melaka,165403,2010,264055
+Malaysia,Negeri Sembilan,666738,2010,2531501
+Malaysia,Pahang,3585238,2010,30006073
+Malaysia,Perak,2091110,2010,8634580
+Malaysia,Perlis,82349,2010,64461
+Malaysia,Pulau Pinang,105622,2010,165503
+Malaysia,Putrajaya,6173,2010,1694
+Malaysia,Sabah,7372091,2010,50929834
+Malaysia,Sarawak,12379545,2010,117525138
+Malaysia,Selangor,782443,2010,4036288
+Malaysia,Terengganu,1288895,2010,10074527
+Malaysia,Johor,1911485,2011,24365470
+Malaysia,Kedah,951787,2011,4426538
+Malaysia,Kelantan,1513205,2011,13752514
+Malaysia,Kuala Lumpur,27198,2011,17537
+Malaysia,Labuan,9066,2011,30160
+Malaysia,Melaka,165403,2011,1261246
+Malaysia,Negeri Sembilan,666738,2011,7957214
+Malaysia,Pahang,3585238,2011,26541969
+Malaysia,Perak,2091110,2011,9433174
+Malaysia,Perlis,82349,2011,26214
+Malaysia,Pulau Pinang,105622,2011,96167
+Malaysia,Putrajaya,6173,2011,1703
+Malaysia,Sabah,7372091,2011,39326584
+Malaysia,Sarawak,12379545,2011,167511455
+Malaysia,Selangor,782443,2011,1394515
+Malaysia,Terengganu,1288895,2011,6143847
+Malaysia,Johor,1911485,2012,15733919
+Malaysia,Kedah,951787,2012,5107978
+Malaysia,Kelantan,1513205,2012,24206068
+Malaysia,Kuala Lumpur,27198,2012,25988
+Malaysia,Labuan,9066,2012,65894
+Malaysia,Melaka,165403,2012,1088913
+Malaysia,Negeri Sembilan,666738,2012,12982002
+Malaysia,Pahang,3585238,2012,48103725
+Malaysia,Perak,2091110,2012,9479235
+Malaysia,Perlis,82349,2012,39986
+Malaysia,Pulau Pinang,105622,2012,116669
+Malaysia,Putrajaya,6173,2012,1953
+Malaysia,Sabah,7372091,2012,56421384
+Malaysia,Sarawak,12379545,2012,225940181
+Malaysia,Selangor,782443,2012,2650491
+Malaysia,Terengganu,1288895,2012,9024779
+Malaysia,Johor,1911485,2013,8531067
+Malaysia,Kedah,951787,2013,3816707
+Malaysia,Kelantan,1513205,2013,11298874
+Malaysia,Kuala Lumpur,27198,2013,978
+Malaysia,Labuan,9066,2013,9577
+Malaysia,Melaka,165403,2013,470081
+Malaysia,Negeri Sembilan,666738,2013,3280956
+Malaysia,Pahang,3585238,2013,21622693
+Malaysia,Perak,2091110,2013,5597916
+Malaysia,Perlis,82349,2013,59672
+Malaysia,Pulau Pinang,105622,2013,49712
+Malaysia,Putrajaya,6173,2013,1502
+Malaysia,Sabah,7372091,2013,29061513
+Malaysia,Sarawak,12379545,2013,100817758
+Malaysia,Selangor,782443,2013,1287901
+Malaysia,Terengganu,1288895,2013,6025767
+Malaysia,Johor,1911485,2014,19167657
+Malaysia,Kedah,951787,2014,8717694
+Malaysia,Kelantan,1513205,2014,26676856
+Malaysia,Kuala Lumpur,27198,2014,26992
+Malaysia,Labuan,9066,2014,37099
+Malaysia,Melaka,165403,2014,2027517
+Malaysia,Negeri Sembilan,666738,2014,7768059
+Malaysia,Pahang,3585238,2014,43501482
+Malaysia,Perak,2091110,2014,12186622
+Malaysia,Perlis,82349,2014,182505
+Malaysia,Pulau Pinang,105622,2014,154364
+Malaysia,Putrajaya,6173,2014,4885
+Malaysia,Sabah,7372091,2014,68404103
+Malaysia,Sarawak,12379545,2014,170897158
+Malaysia,Selangor,782443,2014,7218670
+Malaysia,Terengganu,1288895,2014,8837484
+Malaysia,Johor,1911485,2015,11703403
+Malaysia,Kedah,951787,2015,8274821
+Malaysia,Kelantan,1513205,2015,16326586
+Malaysia,Kuala Lumpur,27198,2015,16435
+Malaysia,Labuan,9066,2015,44576
+Malaysia,Melaka,165403,2015,1105845
+Malaysia,Negeri Sembilan,666738,2015,4891627
+Malaysia,Pahang,3585238,2015,31278330
+Malaysia,Perak,2091110,2015,9330592
+Malaysia,Perlis,82349,2015,124123
+Malaysia,Pulau Pinang,105622,2015,118358
+Malaysia,Putrajaya,6173,2015,4485
+Malaysia,Sabah,7372091,2015,51989474
+Malaysia,Sarawak,12379545,2015,112170381
+Malaysia,Selangor,782443,2015,1964783
+Malaysia,Terengganu,1288895,2015,7764499
+Malaysia,Johor,1911485,2016,17855981
+Malaysia,Kedah,951787,2016,9518175
+Malaysia,Kelantan,1513205,2016,18271263
+Malaysia,Kuala Lumpur,27198,2016,21972
+Malaysia,Labuan,9066,2016,65514
+Malaysia,Melaka,165403,2016,2256715
+Malaysia,Negeri Sembilan,666738,2016,8353096
+Malaysia,Pahang,3585238,2016,55409537
+Malaysia,Perak,2091110,2016,12251099
+Malaysia,Perlis,82349,2016,240288
+Malaysia,Pulau Pinang,105622,2016,168551
+Malaysia,Putrajaya,6173,2016,11358
+Malaysia,Sabah,7372091,2016,54136001
+Malaysia,Sarawak,12379545,2016,118705219
+Malaysia,Selangor,782443,2016,3989146
+Malaysia,Terengganu,1288895,2016,11366984
+Malaysia,Johor,1911485,2017,16722163
+Malaysia,Kedah,951787,2017,10250117
+Malaysia,Kelantan,1513205,2017,14333971
+Malaysia,Kuala Lumpur,27198,2017,54600
+Malaysia,Labuan,9066,2017,20015
+Malaysia,Melaka,165403,2017,1866030
+Malaysia,Negeri Sembilan,666738,2017,7330371
+Malaysia,Pahang,3585238,2017,40962541
+Malaysia,Perak,2091110,2017,10829565
+Malaysia,Perlis,82349,2017,177435
+Malaysia,Pulau Pinang,105622,2017,133247
+Malaysia,Putrajaya,6173,2017,13633
+Malaysia,Sabah,7372091,2017,33842106
+Malaysia,Sarawak,12379545,2017,109060544
+Malaysia,Selangor,782443,2017,3100241
+Malaysia,Terengganu,1288895,2017,8798471
+Malaysia,Johor,1911485,2018,11669352
+Malaysia,Kedah,951787,2018,8404860
+Malaysia,Kelantan,1513205,2018,16709363
+Malaysia,Kuala Lumpur,27198,2018,36194
+Malaysia,Labuan,9066,2018,16358
+Malaysia,Melaka,165403,2018,1768802
+Malaysia,Negeri Sembilan,666738,2018,6174179
+Malaysia,Pahang,3585238,2018,31837425
+Malaysia,Perak,2091110,2018,8194107
+Malaysia,Perlis,82349,2018,109162
+Malaysia,Pulau Pinang,105622,2018,85190
+Malaysia,Putrajaya,6173,2018,13919
+Malaysia,Sabah,7372091,2018,30871759
+Malaysia,Sarawak,12379545,2018,98992412
+Malaysia,Selangor,782443,2018,3369929
+Malaysia,Terengganu,1288895,2018,7785161
+Malaysia,Johor,1911485,2019,11492822
+Malaysia,Kedah,951787,2019,6893634
+Malaysia,Kelantan,1513205,2019,19215005
+Malaysia,Kuala Lumpur,27198,2019,16472
+Malaysia,Labuan,9066,2019,10357
+Malaysia,Melaka,165403,2019,1877576
+Malaysia,Negeri Sembilan,666738,2019,4796904
+Malaysia,Pahang,3585238,2019,30060307
+Malaysia,Perak,2091110,2019,8080205
+Malaysia,Perlis,82349,2019,126378
+Malaysia,Pulau Pinang,105622,2019,84421
+Malaysia,Putrajaya,6173,2019,9516
+Malaysia,Sabah,7372091,2019,26467419
+Malaysia,Sarawak,12379545,2019,79985029
+Malaysia,Selangor,782443,2019,2897072
+Malaysia,Terengganu,1288895,2019,7430061
+Malaysia,Johor,1911485,2020,7982444
+Malaysia,Kedah,951787,2020,5029638
+Malaysia,Kelantan,1513205,2020,10893225
+Malaysia,Kuala Lumpur,27198,2020,6270
+Malaysia,Labuan,9066,2020,16944
+Malaysia,Melaka,165403,2020,1039320
+Malaysia,Negeri Sembilan,666738,2020,3383042
+Malaysia,Pahang,3585238,2020,22824586
+Malaysia,Perak,2091110,2020,6420773
+Malaysia,Perlis,82349,2020,159911
+Malaysia,Pulau Pinang,105622,2020,77488
+Malaysia,Putrajaya,6173,2020,6416
+Malaysia,Sabah,7372091,2020,20562367
+Malaysia,Sarawak,12379545,2020,46688536
+Malaysia,Selangor,782443,2020,1733194
+Malaysia,Terengganu,1288895,2020,4582375
+Malaysia,Johor,1911485,2021,7901281
+Malaysia,Kedah,951787,2021,4312246
+Malaysia,Kelantan,1513205,2021,13107446
+Malaysia,Kuala Lumpur,27198,2021,11037
+Malaysia,Labuan,9066,2021,16950
+Malaysia,Melaka,165403,2021,943834
+Malaysia,Negeri Sembilan,666738,2021,3740996
+Malaysia,Pahang,3585238,2021,23278271
+Malaysia,Perak,2091110,2021,7681938
+Malaysia,Perlis,82349,2021,97765
+Malaysia,Pulau Pinang,105622,2021,89066
+Malaysia,Putrajaya,6173,2021,12774
+Malaysia,Sabah,7372091,2021,21207572
+Malaysia,Sarawak,12379545,2021,45653199
+Malaysia,Selangor,782443,2021,2816861
+Malaysia,Terengganu,1288895,2021,4889039
+Malaysia,Johor,1911485,2022,6046323
+Malaysia,Kedah,951787,2022,3372310
+Malaysia,Kelantan,1513205,2022,12323633
+Malaysia,Kuala Lumpur,27198,2022,6327
+Malaysia,Labuan,9066,2022,22610
+Malaysia,Melaka,165403,2022,796033
+Malaysia,Negeri Sembilan,666738,2022,2788519
+Malaysia,Pahang,3585238,2022,16098470
+Malaysia,Perak,2091110,2022,5380044
+Malaysia,Perlis,82349,2022,144106
+Malaysia,Pulau Pinang,105622,2022,73630
+Malaysia,Putrajaya,6173,2022,5868
+Malaysia,Sabah,7372091,2022,20153878
+Malaysia,Sarawak,12379545,2022,47435841
+Malaysia,Selangor,782443,2022,1394662
+Malaysia,Terengganu,1288895,2022,6214182

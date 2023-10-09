@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+    integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="symbol_map"></div>
+    <img id="bg" src="img/trees2_cropped.jpg">
+    <div class="slideshow">
+      <div id="title" class="center slide mt-12">
+        <p class="text-8xl">World Deforestation</p>
+      </div>
+      <div class="heading">
+        <p>Global Data</p>
+      </div>
+      <div class="slide">
+
+      </div>
+      <div class="heading">
+        <p>Malaysia</p>
+      </div>
+  
+      <div class="slide">
+        <div class="pure-g">
+          <div class="pure-u-8-24">
+            <div class="pr-10">
+              <p class="subheading">Palm oil and logging</p>
+              <p class="text columns-1" style="margin-bottom: 2em;">
+                Malaysia is one of the world's largest producers and exporters of palm oil, a versatile and highly profitable crop used in various products. Forests have been cleared to make way for plant palm oil plantations.
+                Malaysia also has a long history of timber production, and this industry has contributed to deforestation. 
+                <br><br>
+                States like Johor, Pahang, and Sarawak have a high rate of deforestation primarily due to companies harvesting these natural resources.
+              </p>
+            </div>
+  
+            <div class="pr-10">
+              <p class="subheading" style="margin-top: 0.6em;">Urbanization</p>
+              <p class="text columns-1">
+                Malaysia has experienced rapid urbanization, which can lead to deforestation as land is used for residential and commercial purposes.
+              </p>
+            </div>
+          </div>
+  
+          <div class="pure-u-16-24">
+            <p class="subheading">Tree Cover Loss in Malaysia</p>
+            <div class="pt-5 center">
+            <div id="symbol_map_spec"></div>  
+          </div>
+          </div>
+        </div>
+        <div class="pure-g">
+          <div class="pure-u-18-24">
+            <p class="subheading pt-10">Carbon Emissions by state</p>
+            <div class="pt-5">
+            <div id="line_chart_spec"></div>  
+          </div></div>
+
+          <div class="pure-u-6-24">
+            <div>
+              <p class="subheading pt-10">Anti-logging Laws</p>
+              <p class="text columns-1" style="margin-bottom: 2em;">
+                Logging contributes to carbon emissions. Trees store carbon dioxide (CO2), a greenhouse gas, as they grow. When forests are cleared through logging or land conversion, the stored carbon is released into the atmosphere, contributing to climate change.
+                <br><br>
+                The ordinance mentioned in the chart aims to deter illegal logging and forest encroachment by imposing higher fines and stricter penalties for these activities. This (alongside other factors) had a clear effect on carbon emissions after the law was passed in 2015.
+              </p>
+            </div>
+          </div>
+        </div>
+  </div>
+  
     <script type="text/javascript">
-      var spec = "js/symbol_map.vg.json";
-      vegaEmbed('#symbol_map', spec).then(function(result) {}).catch(console.error);
+      var spec = "js/tree_cover_map.json";
+      vegaEmbed('#symbol_map_spec', spec).then(function(result) {}).catch(console.error);
+    </script>
+    
+
+    
+    <script>
+      var spec2 = "js/carbon_line_chart.json";
+      vegaEmbed('#line_chart_spec', spec2).then(function(result) {}).catch(console.error);
     </script>
   </body>
 </html>

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Net change in tree cover in Malaysia (2001-2022)",
+  "width": 750,
+  "height": 350,
+  "projection": {"type": "mercator"},
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "background": "skyblue"
+  },
+  "layer": [
+        {
+      "data": {
+          "url": "../data/malaysia-states.topojson",
+          "format": {"type": "topojson", "feature": "states"}
+      },
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "../data/Country_carbon_data.csv"
+            },
+            "key": "subnational1",
+            "fields": ["change2"]
+          }
+        },
+        {"calculate": "datum.change2", "as": "Tree Cover Loss (%)"}
+      ],
+      "mark": {
+          "type": "geoshape",
+          "stroke": "black",
+          "strokeWidth": 0.5
+      },
+      "encoding": {
+        "color": {
+          "field": "Tree Cover Loss (%)",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "redblue",
+            "reverse": true,
+            "domain": [-5, 0, 40],
+            "zero": true
+          }
+        },
+        "tooltip": [
+          {"field": "id", "type": "nominal", "title": "State"},
+          {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "Tree cover loss (%)"}
+        ]
+      }
+  },
+  {
+    "data": {
+        "url": "../data/ne_110m_graticules_5.json",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
+    },
+    "mark": {"type": "geoshape", "fill": null, "stroke": "white", "strokeWidth": 0.5}
+  }
+  ]
+}
