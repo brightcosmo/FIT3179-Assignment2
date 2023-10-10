@@ -26,7 +26,29 @@
         <p>Global Data</p>
       </div>
       <div class="slide">
+        <div class="pure-g">
+          <div class="pure-u-24-24">
+            <p class="subheading">Which countries have the most forest?</p>
+            <p class="text columns-1" style="margin-bottom: 2em;">
+              Forests account for a little over one-third (38%) of habitable land area. This is around one-quarter (26%) of total (both habitable and uninhabitable) land area, which varies significantly between countries.
+            </p>
+          </div>
+          <div class="pure-u-2-24"></div>
+          <div class="pure-u-20-24">
+            <div class="pt-5 center">
+              <div id="forest_map_spec"></div>
+            </div>
+          </div>
+          <div class="pure-u-2-24"></div>
+          <div class="pure-u-24-24">
+          <div class="pt-10">
+            <p class="text columns-1" style="margin-bottom: 2em;">
+              Malaysia and Australia serve as intriguing case studies for deforestation comparisons due to their distinct geographical, economic, and environmental characteristics. Malaysia faces deforestation challenges driven by palm oil production and agriculture, with global implications for biodiversity and climate. Meanwhile, Australia grapples with land clearing for agriculture and mining, affecting its unique ecosystems and indigenous communities. By examining these two nations, we can explore the diverse drivers, environmental impacts, policy responses, and international ramifications of deforestation, shedding light on strategies for sustainable land use and conservation in different contexts.
+            </p>
+          </div>
+        </div>
 
+        </div>
       </div>
       <div class="heading">
         <p>Malaysia</p>
@@ -83,13 +105,12 @@
     <script type="text/javascript">
       var spec = "js/tree_cover_map.json";
       vegaEmbed('#symbol_map_spec', spec).then(function(result) {}).catch(console.error);
-    </script>
-    
 
-    
-    <script>
       var spec2 = "js/carbon_line_chart.json";
       vegaEmbed('#line_chart_spec', spec2).then(function(result) {}).catch(console.error);
+
+      var spec3 = "js/forest_proportion_map.json";
+      vegaEmbed('#forest_map_spec', spec3).then(function(result) {}).catch(console.error);
     </script>
   </body>
 </html>

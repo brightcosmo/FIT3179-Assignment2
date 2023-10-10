@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Share of Global Forest Area",
+    "data": {"url": "../data/share-global-forest.csv"},
+    "width": 600,
+    "height": 600,
+    "mark": {
+        "type": "area"
+    },
+    "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {"field": "Global_Forest_Share", "type": "quantitative", "title": "Global Forest Share"},
+        "color": {"field": "Continent", "type": "nominal", "title": "Continent"},
+        "tooltip": [
+        {"field": "Year", "title": "Year"},
+        {"field": "Global_Forest_Share", "title": "Global Forest Share"}
+        ]
+    }
+}

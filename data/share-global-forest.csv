@@ -1,0 +1,218 @@
+Continent,Year,Global_Forest_Share
+Africa,1990,17.53
+Asia,1990,13.45
+Europe,1990,23.83
+Northern America,1990,15.36
+Oceania,1990,4.37
+Other,1990,2.48
+South America,1990,22.98
+Africa,1991,17.49
+Asia,1991,13.48
+Europe,1991,23.90
+Northern America,1991,15.39
+Oceania,1991,4.37
+Other,1991,2.46
+South America,1991,22.91
+Africa,1992,17.44
+Asia,1992,13.88
+Europe,1992,23.60
+Northern America,1992,15.42
+Oceania,1992,4.37
+Other,1992,2.46
+South America,1992,22.83
+Africa,1993,17.40
+Asia,1993,13.91
+Europe,1993,23.66
+Northern America,1993,15.45
+Oceania,1993,4.38
+Other,1993,2.45
+South America,1993,22.75
+Africa,1994,17.35
+Asia,1994,13.94
+Europe,1994,23.72
+Northern America,1994,15.48
+Oceania,1994,4.38
+Other,1994,2.46
+South America,1994,22.67
+Africa,1995,17.31
+Asia,1995,13.97
+Europe,1995,23.78
+Northern America,1995,15.51
+Oceania,1995,4.39
+Other,1995,2.45
+South America,1995,22.59
+Africa,1996,17.26
+Asia,1996,14.00
+Europe,1996,23.85
+Northern America,1996,15.54
+Oceania,1996,4.39
+Other,1996,2.45
+South America,1996,22.51
+Africa,1997,17.22
+Asia,1997,14.03
+Europe,1997,23.91
+Northern America,1997,15.57
+Oceania,1997,4.40
+Other,1997,2.44
+South America,1997,22.43
+Africa,1998,17.17
+Asia,1998,14.06
+Europe,1998,23.98
+Northern America,1998,15.60
+Oceania,1998,4.40
+Other,1998,2.44
+South America,1998,22.35
+Africa,1999,17.12
+Asia,1999,14.10
+Europe,1999,24.04
+Northern America,1999,15.63
+Oceania,1999,4.40
+Other,1999,2.44
+South America,1999,22.27
+Africa,2000,17.08
+Asia,2000,14.13
+Europe,2000,24.10
+Northern America,2000,15.66
+Oceania,2000,4.41
+Other,2000,2.43
+South America,2000,22.19
+Africa,2001,17.02
+Asia,2001,14.20
+Europe,2001,24.16
+Northern America,2001,15.70
+Oceania,2001,4.41
+Other,2001,2.42
+South America,2001,22.09
+Africa,2002,16.95
+Asia,2002,14.28
+Europe,2002,24.22
+Northern America,2002,15.73
+Oceania,2002,4.41
+Other,2002,2.42
+South America,2002,21.99
+Africa,2003,16.89
+Asia,2003,14.35
+Europe,2003,24.28
+Northern America,2003,15.76
+Oceania,2003,4.41
+Other,2003,2.42
+South America,2003,21.89
+Africa,2004,16.83
+Asia,2004,14.43
+Europe,2004,24.34
+Northern America,2004,15.79
+Oceania,2004,4.41
+Other,2004,2.41
+South America,2004,21.79
+Africa,2005,16.77
+Asia,2005,14.50
+Europe,2005,24.40
+Northern America,2005,15.82
+Oceania,2005,4.41
+Other,2005,2.41
+South America,2005,21.69
+Africa,2006,16.71
+Asia,2006,14.58
+Europe,2006,24.46
+Northern America,2006,15.85
+Oceania,2006,4.41
+Other,2006,2.40
+South America,2006,21.59
+Africa,2007,16.65
+Asia,2007,14.65
+Europe,2007,24.51
+Northern America,2007,15.88
+Oceania,2007,4.41
+Other,2007,2.41
+South America,2007,21.49
+Africa,2008,16.59
+Asia,2008,14.73
+Europe,2008,24.57
+Northern America,2008,15.91
+Oceania,2008,4.41
+Other,2008,2.40
+South America,2008,21.39
+Africa,2009,16.52
+Asia,2009,14.80
+Europe,2009,24.63
+Northern America,2009,15.94
+Oceania,2009,4.41
+Other,2009,2.41
+South America,2009,21.29
+Africa,2010,16.46
+Asia,2010,14.88
+Europe,2010,24.69
+Northern America,2010,15.98
+Oceania,2010,4.41
+Other,2010,2.39
+South America,2010,21.19
+Africa,2011,16.39
+Asia,2011,14.92
+Europe,2011,24.73
+Northern America,2011,16.00
+Oceania,2011,4.43
+Other,2011,2.38
+South America,2011,21.15
+Africa,2012,16.31
+Asia,2012,14.96
+Europe,2012,24.77
+Northern America,2012,16.02
+Oceania,2012,4.45
+Other,2012,2.39
+South America,2012,21.10
+Africa,2013,16.23
+Asia,2013,15.00
+Europe,2013,24.80
+Northern America,2013,16.05
+Oceania,2013,4.47
+Other,2013,2.39
+South America,2013,21.06
+Africa,2014,16.15
+Asia,2014,15.04
+Europe,2014,24.84
+Northern America,2014,16.07
+Oceania,2014,4.49
+Other,2014,2.39
+South America,2014,21.02
+Africa,2015,16.08
+Asia,2015,15.09
+Europe,2015,24.87
+Northern America,2015,16.09
+Oceania,2015,4.52
+Other,2015,2.38
+South America,2015,20.97
+Africa,2016,16.00
+Asia,2016,15.14
+Europe,2016,24.91
+Northern America,2016,16.11
+Oceania,2016,4.53
+Other,2016,2.37
+South America,2016,20.94
+Africa,2017,15.92
+Asia,2017,15.19
+Europe,2017,24.95
+Northern America,2017,16.13
+Oceania,2017,4.54
+Other,2017,2.37
+South America,2017,20.90
+Africa,2018,15.84
+Asia,2018,15.24
+Europe,2018,24.99
+Northern America,2018,16.14
+Oceania,2018,4.54
+Other,2018,2.38
+South America,2018,20.87
+Africa,2019,15.76
+Asia,2019,15.29
+Europe,2019,25.03
+Northern America,2019,16.16
+Oceania,2019,4.55
+Other,2019,2.38
+South America,2019,20.83
+Africa,2020,15.68
+Asia,2020,15.34
+Europe,2020,25.07
+Northern America,2020,16.18
+Oceania,2020,4.56
+Other,2020,2.37
+South America,2020,20.80

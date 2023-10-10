@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "../data/forest-area-primary-planted.csv"},
+    "transform": [
+      {
+        "filter": {"field": "Entity", "equal": "World"}
+      }
+    ],
+    "vconcat": [
+      {
+        "width": 480,
+        "mark": "area",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "scale": {"domain": {"param": "brush"}},
+            "axis": {"title": ""}
+          },
+          "y": {
+            "field": "Planted_Forest",
+            "type": "quantitative",
+            "axis": {"tickCount": 5, "grid": false}
+          }
+        }
+      },
+      {
+        "width": 480,
+        "height": 80,
+        "mark": "area",
+        "params": [
+          {
+            "name": "brush",
+            "select": {
+              "type": "interval",
+              "encodings": ["x"],
+              "on": {
+                "type": "mousemove",
+                "between": [{"type": "mouseup"}, {"type": "mousedown"}]
+              }
+            }
+          }
+        ],
+        "encoding": {
+          "x": {"field": "Year", "type": "temporal"},
+          "y": {
+            "field": "Planted_Forest",
+            "type": "quantitative",
+            "axis": {"tickCount": 3, "grid": false}
+          }
+        }
+      }
+    ]
+  }
