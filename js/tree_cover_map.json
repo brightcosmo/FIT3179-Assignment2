@@ -13,7 +13,7 @@
   "layer": [
         {
       "data": {
-          "url": "../data/malaysia-states.topojson",
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/malaysia-states.topojson",
           "format": {"type": "topojson", "feature": "states"}
       },
       "transform": [
