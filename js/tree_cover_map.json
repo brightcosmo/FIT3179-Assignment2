@@ -21,7 +21,7 @@
           "lookup": "id",
           "from": {
             "data": {
-              "url": "../data/Country_carbon_data.csv"
+              "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/Country_carbon_data.csv"
             },
             "key": "subnational1",
             "fields": ["change2"]

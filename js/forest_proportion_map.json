@@ -4,7 +4,7 @@
     "width": 1000,
     "height": 500,
     "data": {
-      "url": "../data/forest-area-as-share-of-land-area.csv"  
+      "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/forest-area-as-share-of-land-area.csv"  
     },
     "projection": {"type":"equalEarth"},
     "params": [
