@@ -29,17 +29,40 @@
         <div class="pure-g">
           <div class="pure-u-24-24">
             <p class="subheading">Which countries have the most forest?</p>
-            <p class="text columns-1" style="margin-bottom: 2em;">
-              Forests account for a little over one-third (38%) of habitable land area on earth. This consists of around 26% of total (both habitable and uninhabitable) land area, which varies significantly between countries.
-            </p>
           </div>
+        </div>
+        <div class="pure-g">
           <div class="pure-u-2-24"></div>
           <div class="pure-u-20-24">
             <div class="pt-5 center">
               <div id="forest_map_spec"></div>
             </div>
           </div>
+          <p class="text columns-1" style="margin-bottom: 2em;">
+            Forests account for a little over one-third (38%) of habitable land area on earth. This consists of around 26% of total (both habitable and uninhabitable) land area, which varies significantly between countries.
+          </p>
           <div class="pure-u-2-24"></div>
+        </div>
+        <div class="pure-g">
+          <div class="pure-u-10-24">
+            <p class="text columns-1 pr-10" style="margin-bottom: 2em;">
+              <br>
+              <br>
+            A combination of geographical, climatic, economic, and socio-cultural factors influences the tree density in different countries. Countries with favorable conditions for tree growth, strong conservation policies, and low levels of deforestation tend to have higher tree densities. Conversely, countries with harsh climates, high levels of urbanization, and deforestation activities tend to have lower tree densities. It's essential to consider these factors when interpreting the data and understanding why specific countries have the highest or lowest trees per square kilometer.
+          </p>
+          </div>
+          <div class="pure-u-7-24">
+            <div class="pt-5 center">
+              <div id="bar_chart1"></div>
+            </div>
+          </div>
+          <div class="pure-u-7-24">
+            <div class="pt-5 center">
+              <div id="bar_chart2"></div>
+            </div>
+          </div>
+
+
           <div class="pure-u-24-24">
           <div class="pt-10">
             <p class="text columns-1" style="margin-bottom: 2em;">
@@ -47,7 +70,13 @@
             </p>
           </div>
         </div>
-
+        <div class="pure-u-2-24"></div>
+        <div class="pure-u-20-24">
+          <div class="pt-5 center">
+            <div id="area_chart"></div>
+          </div>
+        </div>
+        <div class="pure-u-2-24"></div>
         </div>
       </div>
       <div class="heading">
@@ -111,6 +140,14 @@
 
       var spec3 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/forest_proportion_map.json";
       vegaEmbed('#forest_map_spec', spec3).then(function(result) {}).catch(console.error);
+
+      var spec4 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/bar_chart.json";
+      // var spec4 = "../js/bar_chart.json";
+      vegaEmbed('#bar_chart1', spec4).then(function(result) {}).catch(console.error);
+
+      var spec5 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/bar_chart2.json";
+      // var spec5 = "../js/bar_chart2.json";
+      vegaEmbed('#bar_chart2', spec5).then(function(result) {}).catch(console.error);
     </script>
   </body>
   <style>
@@ -121,7 +158,6 @@ margin-right: 30px;
 padding: 32px;
 background: white;
 border-radius: 0.75rem;
-/* 12px */
 filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 background: rgb(2, 0, 36);
 background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(235, 255, 250) 100%);
@@ -139,7 +175,7 @@ justify-content: center;
 
 .heading {
 font-family: 'Roboto Slab', serif;
-padding: 1.5rem; /* 24px */
+padding: 1.5rem;
 font-size: 3rem;
 /* 48px */
 line-height: 1;
@@ -158,9 +194,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(235, 255, 250
 .subheading {
 font-family: 'Roboto Slab', serif;
 font-size: 1.875rem;
-/* 30px */
 line-height: 2.25rem;
-/* 36px */
 }
 
 .slideshow {

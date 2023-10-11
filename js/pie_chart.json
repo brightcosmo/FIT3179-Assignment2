@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Share of Global Forest Area",
+    "title": "Share of Global Forest Area from 1990-2020",
     "data": {"url": "../data/share-global-forest.csv"},
     "width": 600,
     "height": 600,
@@ -9,11 +9,12 @@
     },
     "encoding": {
         "x": {"field": "Year", "type": "temporal", "title": "Year"},
-        "y": {"field": "Global_Forest_Share", "type": "quantitative", "title": "Global Forest Share"},
+        "y": {"field": "Tree_number", "type": "quantitative", "title": "Global Forest Share",
+              "sort": "ascending"}, 
         "color": {"field": "Continent", "type": "nominal", "title": "Continent"},
         "tooltip": [
-        {"field": "Year", "title": "Year"},
-        {"field": "Global_Forest_Share", "title": "Global Forest Share"}
+            {"field": "Continent", "title": "Continent"},
+            {"field": "Tree_number", "title": "Global Forest Share"}
         ]
     }
 }
