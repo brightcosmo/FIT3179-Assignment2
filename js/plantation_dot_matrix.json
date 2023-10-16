@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 300,
   "height": 300,
+  "title": "Plantation Types in Malaysia",
   "config": {
     "background":"transparent",
     "axis": {
