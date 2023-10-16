@@ -4,7 +4,7 @@
     "height": 300,
     "title": "Plantations breakdown by state",
     "data": {
-        "url": "../data/plantation_barchart.csv"
+        "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/plantation_barchart.csv"
     },
     "transform": [
         {"calculate": "datum.Crop === 'Oil Palm' ? datum.Area_ha : 0", "as": "oil_palm_area"},

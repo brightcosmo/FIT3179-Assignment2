@@ -13,7 +13,7 @@
     "view": {"stroke": null}
   },
   "data": {
-    "url": "../data/plantation_waffle.csv"
+    "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/plantation_waffle.csv"
   },
   "mark": {
       "type": "circle",
