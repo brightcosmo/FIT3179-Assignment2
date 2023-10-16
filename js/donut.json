@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 500,
+    "data": {
+      "url": "../data/forest_donuts.csv"
+    },
+    "params": [
+        {
+            "name": "Country_Selection",
+            "value": "Malaysia",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "Malaysia",
+                    "Australia",
+                    "United States of America",
+                    "Indonesia",
+                    "Japan",
+                    "Brunei",
+                    "Sweden",
+                    "Norway",
+                    "Finland",
+                    "Slovenia",
+                    "Saudi Arabia",
+                    "Kuwait",
+                    "Bahrain"
+                ]
+            }
+        }
+    ],    
+    "encoding": {
+      "theta": { "field": "value", "type": "quantitative", "stack": true },
+      "color": {
+        "field": "category",
+        "type": "nominal",
+        "scale": { "scheme": "orangered" }
+      }
+    },
+    "layer": [
+      {
+        "transform": [{ "filter": "datum.country == Country_Selection" }],
+        "mark": {
+          "type": "arc",
+          "innerRadius": 120,
+          "tooltip": true,
+          "outerRadius": 180
+        },
+        "encoding": {
+          "tooltip": [
+            { "field": "category", "type": "nominal" },
+            { "field": "value", "type": "quantitative", "title": "Amount of energy used (KWH)" }
+          ]
+        }
+      },
+      {
+        "transform": [{ "filter": "datum.iso == Country_Selection" }],
+        "mark": { "type": "text", "radius": 220, "tooltip": true, "size": 15 },
+        "encoding": {
+          "text": { "field": "category", "type": "nominal" },
+          "tooltip": [
+            { "field": "category", "type": "nominal" },
+            { "field": "value", "type": "quantitative", "title": "Amount of energy used (KWH)" }
+          ]
+        }
+      }
+    ]
+  }

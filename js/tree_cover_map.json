@@ -5,10 +5,14 @@
   "height": 600,
   "projection": {"type": "equirectangular"},
   "config": {
-    "background": "transparent",
-    "view": {
-        "stroke": null
-    }
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
+    },
+    "view": {"stroke": null}
   },
   "layer": [
     {
@@ -86,7 +90,7 @@
             "type": "threshold",
             "scheme": "redblue",
             "reverse": true,
-            "range": ["#b9413d", "#d45f52", "#ea9178", "#f9d0bb", "#c5deec"],
+            "range": ["#b9413d", "#d45f52", "#ea9178", "#f9d0bb", "#939bc7"],
             "domain": [0, 10, 20, 30],
             "zero": true
           }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "../data/forest_donuts.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "gfw_area__ha", "type": "quantitative", "title": "GFW Area (in hectares)"},
+    "y": {"field": "change", "type": "quantitative", "title": "Change Percentage"},
+    "size": {"field": "stable", "type": "quantitative", "legend": {"title": "Stable Land"}},
+    "color": {"field": "net", "type": "quantitative", "scale": {"scheme": "viridis"}, "title": "Net Value"},
+    "tooltip": [
+      {"field": "country", "type": "nominal"},
+      {"field": "stable", "type": "quantitative"},
+      {"field": "loss", "type": "quantitative"},
+      {"field": "gain", "type": "quantitative"},
+      {"field": "disturb", "type": "quantitative"},
+      {"field": "net", "type": "quantitative"},
+      {"field": "change", "type": "quantitative"}
+    ]
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Bubble Chart of Land Metrics"
+}

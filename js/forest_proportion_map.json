@@ -3,6 +3,16 @@
     "title": "Proportion of Total Land Area Occupied by Forests",
     "width": 1000,
     "height": 500,
+    "config": {
+      "background":"transparent",
+      "axis": {
+        "labelFont": "sans-serif",
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "grid": false
+      },
+      "view": {"stroke": null}
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/forest-area-as-share-of-land-area.csv"  
     },

@@ -20,11 +20,11 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
-    "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)"},
+    "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true, "format": ".2f"}},
     "color": {"value": "lightgreen"},
     "tooltip": [
       {"field": "Country", "type": "nominal"},
-      {"field": "Tree_density", "type": "quantitative", "title": "Trees per km"}
+      {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
   ]
   },
   "width": 600,

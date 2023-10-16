@@ -3,15 +3,15 @@
   "width": 300,
   "height": 300,
   "config": {
-    "background": "transparent",
-    "title": {
-        "fontSize": 24,
-        "fontWeight": "normal"
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
     },
-    "view": {
-        "stroke": null
-    }
-},
+    "view": {"stroke": null}
+  },
   "data": {
     "url": "../data/plantation_waffle.csv"
   },
@@ -38,7 +38,7 @@
       "type": "nominal",
       "scale": {
         "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
-        "range": ["#ff892e", "#636363", "#ff3636", "#8c564b", "#7aff91"]
+        "range": ["#FFD700", "#ff892e", "#FF0000", "#964B00", "#ADD8E6"]
       },
       "legend": {
         "title": "",

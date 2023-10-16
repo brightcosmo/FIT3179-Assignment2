@@ -3,10 +3,14 @@
   "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
   "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/carbon_emissions_linechart.csv"},
   "config": {
-    "background": "transparent",
-    "view": {
-        "stroke": null
-    }
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
+    },
+    "view": {"stroke": null}
   },
   "width": 750,
   "height": 350,

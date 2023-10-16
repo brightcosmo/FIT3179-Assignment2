@@ -6,25 +6,45 @@
     "data": {
         "url": "../data/plantation_barchart.csv"
     },
+    "transform": [
+        {"calculate": "datum.Crop === 'Oil Palm' ? datum.Area_ha : 0", "as": "oil_palm_area"},
+        {"calculate": "datum.Area_ha", "as": "total_area"},
+        {"joinaggregate": [{"op": "sum", "field": "total_area", "as": "total_area_sum"}]},
+        {"calculate": "datum.oil_palm_area / datum.total_area_sum", "as": "oil_palm_percentage"}
+    ],
     "mark": "bar",
     "encoding": {
-        "y": {"field": "State", "type": "nominal", "title": "State", "sort": {"encoding": "x", "order": "descending"}},
-        "x": {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "sort": {"field": "SortOrder"}},
-        "color": {"field": "Crop", "type": "nominal", "title": "Crop",
-                  "scale": {
-                      "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
-                      "range": ["#ff892e", "#636363", "#ff3636", "#8c564b", "#7aff91"]
-                  },
-                  "legend": {"orient": "bottom", "title": "Crop"},
-                  "sort": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"]
+        "y": {
+            "field": "State",
+            "type": "nominal",
+            "title": "State",
+            "sort": ["Selangor", "Sabah", "Sarawak", "Perak", "Terengganu", "Negeri Sembilan", "Perlis", "Kedah", "Kelantan"]
         },
-        "tooltip": [
-            {"field": "Crop", "type": "ordinal", "title": "Crop"},
-            {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "format": ".0f"}
-        ]
-    },
+        "x": {"field": "Area_ha", "type": "quantitative", "title": "Percentage of total plantatons", "stack": "normalize", "axis": {"format": "%"
+        }},
+        "color": {
+            "field": "Crop",
+            "type": "nominal",
+            "title": "Crop",
+            "scale": {
+                "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
+                "range": ["#FFD700", "#ff892e", "#FF0000", "#964B00", "#ADD8E6"]
+            },
+            "legend":{"orient": "right"}},
+            "tooltip": [
+                {"field": "Crop", "type": "ordinal", "title": "Crop"},
+                {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "format": ".2f"}
+            ],
+            "order": {"field": "SortOrder"}
+        },
     "config": {
-        "axis": {"grid": false},
+        "background":"transparent",
+        "axis": {
+          "labelFont": "sans-serif",
+          "labelFontSize": 12,
+          "titleFontSize": 14,
+          "grid": false
+        },
         "view": {"stroke": null}
-    }
+      }
 }
