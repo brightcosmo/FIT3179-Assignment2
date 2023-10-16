@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Countries with the least dense forests (2020)",
+    "config": {
+      "background":"transparent",
+      "axis": {
+        "labelFont": "sans-serif",
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "grid": false
+      },
+      "view": {"stroke": null}
+    },
+    "data": {
+      "values": [
+        {"Country": "Bahrain", "Code": "BHR", "Year": 2014, "Tree_density": 4.144569434},
+        {"Country": "Kuwait", "Code": "KWT", "Year": 2014, "Tree_density": 3.540288148},
+        {"Country": "Saudi Arabia", "Code": "SAU", "Year": 2014, "Tree_density": 1.264488247},
+        {"Country": "Qatar", "Code": "QAT", "Year": 2014, "Tree_density": 1.051359396},
+        {"Country": "UAE", "Code": "ARE", "Year": 2014, "Tree_density": 0.158461446},
+        {"Country": "Western Sahara", "Code": "ESH", "Year": 2014, "Tree_density": 0.049174774}
+      ]
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
+      "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true}},
+      "color": {"value": "lightgreen"},
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
+    ]
+    },
+    "width": 350,
+    "height": 200
+  }
+  

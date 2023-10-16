@@ -1,33 +1,36 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Countries with the least dense forests (2014)",
-    "config": {
-      "background": "transparent",
-      "view": {
-          "stroke": null
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Countries with the least dense forests (2010)",
+  "config": {
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
     },
-    "data": {
-      "values": [
-        {"Country": "Bahrain", "Code": "BHR", "Year": 2014, "Tree_density": 4.544569434},
-        {"Country": "Kuwait", "Code": "KWT", "Year": 2014, "Tree_density": 3.500288148},
-        {"Country": "Saudi Arabia", "Code": "SAU", "Year": 2014, "Tree_density": 1.414488247},
-        {"Country": "Qatar", "Code": "QAT", "Year": 2014, "Tree_density": 1.121359396},
-        {"Country": "UAE", "Code": "ARE", "Year": 2014, "Tree_density": 0.248461446},
-        {"Country": "Western Sahara", "Code": "ESH", "Year": 2014, "Tree_density": 0.069174774}
-      ]
-    },
-    "mark": "bar",
-    "encoding": {
-      "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
-      "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)"},
-      "color": {"value": "lightgreen"},
-      "tooltip": [
-        {"field": "Country", "type": "nominal"},
-        {"field": "Tree_density", "type": "quantitative", "title": "Trees per km"}
+    "view": {"stroke": null}
+  },
+  "data": {
+    "values": [
+      {"Country": "Bahrain", "Code": "BHR", "Year": 2014, "Tree_density": 4.244569434},
+      {"Country": "Kuwait", "Code": "KWT", "Year": 2014, "Tree_density": 3.600288148},
+      {"Country": "Saudi Arabia", "Code": "SAU", "Year": 2014, "Tree_density": 1.314488247},
+      {"Country": "Qatar", "Code": "QAT", "Year": 2014, "Tree_density": 1.021359396},
+      {"Country": "UAE", "Code": "ARE", "Year": 2014, "Tree_density": 0.148461446},
+      {"Country": "Western Sahara", "Code": "ESH", "Year": 2014, "Tree_density": 0.059174774}
     ]
-    },
-    "width": 600,
-    "height": 400
-  }
-  
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
+    "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true}},
+    "color": {"value": "lightgreen"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
+  ]
+  },
+  "width": 350,
+  "height": 200
+}

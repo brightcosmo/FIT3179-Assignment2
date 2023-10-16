@@ -1,11 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Countries with the least dense forests (2014)",
+  "title": "Countries with the least dense forests (2000)",
   "config": {
-    "background": "transparent",
-    "view": {
-        "stroke": null
-    }
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
+    },
+    "view": {"stroke": null}
   },
   "data": {
     "values": [
@@ -20,13 +24,13 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
-    "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true, "format": ".2f"}},
+    "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true}},
     "color": {"value": "lightgreen"},
     "tooltip": [
       {"field": "Country", "type": "nominal"},
       {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
   ]
   },
-  "width": 600,
-  "height": 400
+  "width": 350,
+  "height": 200
 }

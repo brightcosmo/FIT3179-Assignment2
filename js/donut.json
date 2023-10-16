@@ -1,68 +1,84 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 500,
-    "data": {
-      "url": "../data/forest_donuts.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 500,
+  "title": "Components of Net Change in Forests",
+  "data": {
+    "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/forest_donuts.csv"
+  },
+  "config": {
+    "background":"transparent",
+    "axis": {
+      "labelFont": "sans-serif",
+      "labelFontSize": 12,
+      "titleFontSize": 14,
+      "grid": false
     },
-    "params": [
-        {
-            "name": "Country_Selection",
-            "value": "Malaysia",
-            "bind": {
-                "input": "select",
-                "options": [
-                    "Malaysia",
-                    "Australia",
-                    "United States of America",
-                    "Indonesia",
-                    "Japan",
-                    "Brunei",
-                    "Sweden",
-                    "Norway",
-                    "Finland",
-                    "Slovenia",
-                    "Saudi Arabia",
-                    "Kuwait",
-                    "Bahrain"
-                ]
-            }
-        }
-    ],    
-    "encoding": {
-      "theta": { "field": "value", "type": "quantitative", "stack": true },
-      "color": {
-        "field": "category",
-        "type": "nominal",
-        "scale": { "scheme": "orangered" }
-      }
-    },
-    "layer": [
+    "view": {"stroke": null}
+  },
+  "params": [
       {
-        "transform": [{ "filter": "datum.country == Country_Selection" }],
-        "mark": {
-          "type": "arc",
-          "innerRadius": 120,
-          "tooltip": true,
-          "outerRadius": 180
-        },
-        "encoding": {
-          "tooltip": [
-            { "field": "category", "type": "nominal" },
-            { "field": "value", "type": "quantitative", "title": "Amount of energy used (KWH)" }
-          ]
-        }
+          "name": "Country_Selection",
+          "value": "Malaysia",
+          "bind": {
+              "input": "select",
+              "options": [
+                  "Malaysia",
+                  "Australia",
+                  "United States of America",
+                  "Indonesia",
+                  "Brunei",
+                  "Sweden",
+                  "Norway",
+                  "Finland",
+                  "Slovenia",
+                  "Saudi Arabia",
+                  "Kuwait",
+                  "Bahrain"
+              ],
+              "name": "Country "
+          }
+      }
+  ],    
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "category",
+      "title": "Category",
+      "legend": null,
+      "type": "nominal",
+      "scale": {
+        "domain": ["Stable Forest", "Disturbed Forest", "Forest Gain", "Forest Loss"],
+        "range": ["#518751", "#ffc966", "#8f8fff", "#FFB6C1"]
+      }
+    }
+  },
+  "layer": [
+    {
+      "transform": [{"filter": "datum.country == Country_Selection"}],
+      "mark": {
+        "type": "arc",
+        "innerRadius": 100,
+        "tooltip": true,
+        "outerRadius": 160
       },
-      {
-        "transform": [{ "filter": "datum.iso == Country_Selection" }],
-        "mark": { "type": "text", "radius": 220, "tooltip": true, "size": 15 },
-        "encoding": {
-          "text": { "field": "category", "type": "nominal" },
-          "tooltip": [
-            { "field": "category", "type": "nominal" },
-            { "field": "value", "type": "quantitative", "title": "Amount of energy used (KWH)" }
-          ]
-        }
+      "encoding": {
+        "tooltip": [
+          {"field": "category", "type": "nominal", "title": "Category"},
+          {"field": "value", "type": "quantitative", "title": "Value"}
+        ]
       }
-    ]
-  }
+    },
+    {
+      "transform": [{ "filter": "datum.country == Country_Selection" }],
+      "mark": { "type": "text", "radius": 210, "size": 14 },
+      "encoding": {
+        "text": { "condition": {
+          "test": "datum.value > 0",
+          "type": "nominal",
+          "field": "category"
+        }}
+      }
+    }
+  ]
+}

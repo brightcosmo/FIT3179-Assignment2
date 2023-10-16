@@ -159,3 +159,7 @@
     #dotmap {
     background: #C8EAFD;
     }
+
+    .vega-bindings input[type="select"] {
+      background-color: transparent;
+    }

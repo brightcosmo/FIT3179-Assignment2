@@ -1,92 +1,49 @@
 country,category,value
-Australia,stable,80328275.65
-Australia,loss,2517149.647
-Australia,gain,1600595.931
-Australia,disturb,6456183.336
-Australia,net,-916553.716
-Australia,change,-1.026360035
-Australia,gfw_area__ha,768803974.392573
-Bahrain,stable,55.03928004
-Bahrain,loss,0
-Bahrain,gain,62.2524651
-Bahrain,disturb,0
-Bahrain,net,62.2524651
-Bahrain,change,113.1050034
-Bahrain,gfw_area__ha,71512.548238655
-Brunei,stable,484942.5848
-Brunei,loss,10606.02793
-Brunei,gain,7531.553715
-Brunei,disturb,28194.881
-Brunei,net,-3074.474214
-Brunei,change,-0.587018013
-Brunei,gfw_area__ha,577779.930063346
-Finland,stable,16589946.98
-Finland,loss,1728477.533
-Finland,gain,1357034.206
-Finland,disturb,3174829.638
-Finland,net,-371443.328
-Finland,change,-1.728180051
-Finland,gfw_area__ha,33694010.1867756
-Indonesia,stable,124187188.6
-Indonesia,loss,9000754.243
-Indonesia,gain,4882137.053
-Indonesia,disturb,24056932.8
-Indonesia,net,-4118617.19
-Indonesia,change,-2.619240046
-Indonesia,gfw_area__ha,189024478.603848
-Japan,stable,25995770.71
-Japan,loss,364928.0927
-Japan,gain,221005.2609
-Japan,disturb,742971.9045
-Japan,net,-143922.8318
-Japan,change,-0.531008005
-Japan,gfw_area__ha,37246810.4275691
-Kuwait,stable,13.44885141
-Kuwait,loss,0
-Kuwait,gain,51.43582891
-Kuwait,disturb,0
-Kuwait,net,51.43582891
-Kuwait,change,382.45401
-Kuwait,gfw_area__ha,1738874.86017967
-Malaysia,stable,18799585.55
-Malaysia,loss,2129694.713
-Malaysia,gain,1004944.913
-Malaysia,disturb,8829933.147
-Malaysia,net,-1124749.8
-Malaysia,change,-3.779500008
-Malaysia,gfw_area__ha,32938342.2012489
-Norway,stable,9465432.115
-Norway,loss,621934.9451
-Norway,gain,476527.2834
-Norway,disturb,670142.8423
-Norway,net,-145407.6617
-Norway,change,-1.351690054
-Norway,gfw_area__ha,32512296.8609833
-Saudi Arabia,stable,16036.47174
-Saudi Arabia,loss,0
-Saudi Arabia,gain,7598.985564
-Saudi Arabia,disturb,0.493650037
-Saudi Arabia,net,7598.985564
-Saudi Arabia,change,47.38410187
-Saudi Arabia,gfw_area__ha,191619240.72767
-Slovenia,stable,1265908.483
-Slovenia,loss,14322.77802
-Slovenia,gain,7767.609089
-Slovenia,disturb,78528.31584
-Slovenia,net,-6555.168931
-Slovenia,change,-0.482437998
-Slovenia,gfw_area__ha,1998091.29894533
-Sweden,stable,21241909.9
-Sweden,loss,2633627.627
-Sweden,gain,1671299.507
-Sweden,disturb,3655699.634
-Sweden,net,-962328.1205
-Sweden,change,-3.495409966
-Sweden,gfw_area__ha,45004727.4502651
-United States of America,stable,237725811.8
-United States of America,loss,17472750.87
-United States of America,gain,13986759.49
-United States of America,disturb,28365368.84
-United States of America,net,-3485991.38
-United States of America,change,-1.229349971
-United States of America,gfw_area__ha,947301496.74622
+Australia,Stable Forest,80328275.65
+Australia,Forest Loss,2517149.647
+Australia,Forest Gain,1600595.931
+Australia,Disturbed Forest,6456183.336
+Bahrain,Stable Forest,55.03928004
+Bahrain,Forest Loss,0
+Bahrain,Forest Gain,62.2524651
+Bahrain,Disturbed Forest,0
+Brunei,Stable Forest,484942.5848
+Brunei,Forest Loss,10606.02793
+Brunei,Forest Gain,7531.553715
+Brunei,Disturbed Forest,28194.881
+Finland,Stable Forest,16589946.98
+Finland,Forest Loss,1728477.533
+Finland,Forest Gain,1357034.206
+Finland,Disturbed Forest,3174829.638
+Indonesia,Stable Forest,124187188.6
+Indonesia,Forest Loss,9000754.243
+Indonesia,Forest Gain,4882137.053
+Indonesia,Disturbed Forest,24056932.8
+Kuwait,Stable Forest,13.44885141
+Kuwait,Forest Loss,0
+Kuwait,Forest Gain,51.43582891
+Kuwait,Disturbed Forest,0
+Malaysia,Stable Forest,18799585.55
+Malaysia,Forest Loss,2129694.713
+Malaysia,Forest Gain,1004944.913
+Malaysia,Disturbed Forest,8829933.147
+Norway,Stable Forest,9465432.115
+Norway,Forest Loss,621934.9451
+Norway,Forest Gain,476527.2834
+Norway,Disturbed Forest,670142.8423
+Saudi Arabia,Stable Forest,16036.47174
+Saudi Arabia,Forest Loss,0
+Saudi Arabia,Forest Gain,7598.985564
+Saudi Arabia,Disturbed Forest,0
+Slovenia,Stable Forest,1265908.483
+Slovenia,Forest Loss,14322.77802
+Slovenia,Forest Gain,7767.609089
+Slovenia,Disturbed Forest,78528.31584
+Sweden,Stable Forest,21241909.9
+Sweden,Forest Loss,2633627.627
+Sweden,Forest Gain,1671299.507
+Sweden,Disturbed Forest,3655699.634
+United States of America,Stable Forest,237725811.8
+United States of America,Forest Loss,17472750.87
+United States of America,Forest Gain,13986759.49
+United States of America,Disturbed Forest,28365368.84

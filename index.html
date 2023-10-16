@@ -49,17 +49,49 @@
           <div class="pure-u-2-24"></div>
         </div>
         <div class="pure-g">
-          <div class="pure-u-12-24">
+          <div class="pure-u-24-24 pb-10">
+            <p class="subheading">Change in density of forests over time</p>
+          </div>
+          <div class="pure-u-8-24">
             <div class="pt-5 center">
               <div id="bar_chart1"></div>
             </div>
           </div>
-          <div class="pure-u-12-24">
+          <div class="pure-u-8-24">
+            <div class="pt-5 center">
+              <div id="bar_chart3"></div>
+            </div>
+          </div>
+          <div class="pure-u-8-24">
+            <div class="pt-5 center">
+              <div id="bar_chart5"></div>
+            </div>
+          </div>
+        </div>
+        <div class="pure-g">
+          <div class="pure-u-8-24">
             <div class="pt-5 center">
               <div id="bar_chart2"></div>
             </div>
           </div>
+          <div class="pure-u-8-24">
+            <div class="pt-5 center">
+              <div id="bar_chart4"></div>
+            </div>
+          </div>
+          <div class="pure-u-8-24">
+            <div class="pt-5 center">
+              <div id="bar_chart6"></div>
+            </div>
+          </div>
         </div>
+          <div class="pure-g">
+          <div class="pure-u-24-24">
+            <div class="pt-5 center">
+              <div id="donut_chart"></div>
+            </div>
+            </div>
+          </div>
       </div>
       <div class="heading">
         <p>Malaysia</p>
@@ -96,9 +128,10 @@
           <div class="pure-u-16-24 pt-10 pl-10">
             <p class="subheading">Breakdown by state</p>
             <p class="text columns-1 pt-5 pr-10" style="margin-bottom: 2em;">
-              Apart from oil palm, northern states such as Kelantan and Kedah have more rubber plantations compared to other crops.
-              Smaller states such as Perlis and Negeri Sembilan produce more fruit.
-              States in Borneo such as Sabah and Sarawak have more timber plantations.
+              Outside of oil palm, northern states such as Kelantan and Kedah have the highest proportion of rubber plantations.
+              Smaller states such as Perlis and Negeri Sembilan produce more fruit, while Sabah and Sarawak have more timber plantations.
+              <br>
+              Hover over the bars to see the actual values.
             </p>
             <div class="center">
             <div id="stacked_bar_spec"></div>  
@@ -136,12 +169,12 @@
       // var spec3 = "../js/forest_proportion_map.json";
       vegaEmbed('#forest_map_spec', spec3, { "actions": false }).then(function(result) {}).catch(console.error);
 
-      var spec4 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/most_bar1.json";
-      // var spec4 = "../js/most_bar1.json";
+      // var spec4 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/most_bar1.json";
+      var spec4 = "../js/most_bar1.json";
       vegaEmbed('#bar_chart1', spec4, { "actions": false }).then(function(result) {}).catch(console.error);
 
-      var spec5 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/least_bar1.json";
-      // var spec5 = "../js/least_bar1.json";
+      // var spec5 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/least_bar1.json";
+      var spec5 = "../js/least_bar1.json";
       vegaEmbed('#bar_chart2', spec5, { "actions": false }).then(function(result) {}).catch(console.error);
 
       var spec6 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/plantation_dot_matrix.json";
@@ -151,6 +184,26 @@
       var spec7 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/stacked_bar.json";
       // var spec7 = "../js/stacked_bar.json";
       vegaEmbed('#stacked_bar_spec', spec7, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      var spec8 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/donut.json";
+      // var spec8 = "../js/donut.json";
+      vegaEmbed('#donut_chart', spec8, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      var spec9 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/most_bar2.json";
+      // var spec9 = "../js/most_bar2.json";
+      vegaEmbed('#bar_chart3', spec9, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      var spec10 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/least_bar2.json";
+      // var spec10 = "../js/least_bar2.json";
+      vegaEmbed('#bar_chart4', spec10, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      var spec11 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/most_bar3.json";
+      // var spec11 = "../js/most_bar3.json";
+      vegaEmbed('#bar_chart5', spec11, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      var spec12 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/least_bar3.json";
+      // var spec12 = "../js/least_bar3.json";
+      vegaEmbed('#bar_chart6', spec12, { "actions": false }).then(function(result) {}).catch(console.error);
     </script>
   </body>
 </html>

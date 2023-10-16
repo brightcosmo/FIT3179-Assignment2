@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Countries with the most dense forests (2010)",
+    "title": "Countries with the most dense forests (2020)",
     "config": {
         "background":"transparent",
         "axis": {
@@ -12,7 +12,7 @@
         "view": {"stroke": null}
       },
     "data": {
-        "values": [{"Country": "Finland", "Code": "FIN", "Year": 2014, "Tree_density": 69237.3674494673}, {"Country": "Slovenia", "Code": "SVN", "Year": 2014, "Tree_density": 67919.25318913409}, {"Country": "Sweden", "Code": "SWE", "Year": 2014, "Tree_density": 66504.56676409334}, {"Country": "Japan", "Code": "JPN", "Year": 2014, "Tree_density": 48138.344098931535}, {"Country": "Malaysia", "Code": "MYS", "Year": 2014, "Tree_density": 43757.1146592973}, {"Country": "Norway", "Code": "NOR", "Year": 2014, "Tree_density": 42323.16792803657}, {"Country": "Indonesia", "Code": "IDN", "Year": 2014, "Tree_density": 40467.92048707151}]
+        "values": [{"Country": "Finland", "Code": "FIN", "Year": 2014, "Tree_density": 65990.9355056553}, {"Country": "Slovenia", "Code": "SVN", "Year": 2014, "Tree_density": 64852.08165347764}, {"Country": "Sweden", "Code": "SWE", "Year": 2014, "Tree_density": 63950.03114564164}, {"Country": "Japan", "Code": "JPN", "Year": 2014, "Tree_density": 46444.91730359199}, {"Country": "Malaysia", "Code": "MYS", "Year": 2014, "Tree_density": 41996.96308741185}, {"Country": "Norway", "Code": "NOR", "Year": 2014, "Tree_density": 40710.710980213305}, {"Country": "Indonesia", "Code": "IDN", "Year": 2014, "Tree_density": 38619.50889288061}]
     },
     "mark": "bar",
     "encoding": {

@@ -1,36 +1,37 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Countries with the most dense forests (2014)",
+    "title": "Countries with the most dense forests (2000)",
     "config": {
-        "background": "transparent",
-        "view": {
-            "stroke": null
-        }
+        "background":"transparent",
+        "axis": {
+          "labelFont": "sans-serif",
+          "labelFontSize": 12,
+          "titleFontSize": 14,
+          "grid": false
+        },
+        "view": {"stroke": null}
       },
     "data": {
         "values": [
             {"Country": "Finland", "Code": "FIN", "Year": 2014, "Tree_density": 72643.508},
             {"Country": "Slovenia", "Code": "SVN", "Year": 2014, "Tree_density": 71131.48624},
             {"Country": "Sweden", "Code": "SWE", "Year": 2014, "Tree_density": 69161.14537},
-            {"Country": "Taiwan", "Code": "TWN", "Year": 2014, "Tree_density": 62975.40764},
-            {"Country": "Brunei", "Code": "BRN", "Year": 2014, "Tree_density": 62333.37385},
             {"Country": "Japan", "Code": "JPN", "Year": 2014, "Tree_density": 49893.51488},
             {"Country": "Malaysia", "Code": "MYS", "Year": 2014, "Tree_density": 45591.03665},
             {"Country": "Norway", "Code": "NOR", "Year": 2014, "Tree_density": 43999.49056},
-            {"Country": "Laos", "Code": "LAO", "Year": 2014, "Tree_density": 43179.38518},
             {"Country": "Indonesia", "Code": "IDN", "Year": 2014, "Tree_density": 42404.80098}
         ]
     },
     "mark": "bar",
     "encoding": {
         "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "ascending"}, "axis": {"labelAngle": 0}},
-        "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true, "format": ".2f"}},
+        "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)", "axis": {"labelFlush": true, "tickMinStep": 2000}},
         "color": {"value": "darkgreen"},
         "tooltip": [
             {"field": "Country", "type": "nominal"},
             {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
         ]
     },
-    "width": 600,
-    "height": 400
+    "width": 350,
+    "height": 200
   }  
