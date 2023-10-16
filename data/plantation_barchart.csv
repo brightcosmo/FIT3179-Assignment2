@@ -1,0 +1,71 @@
+State,Crop,Area_ha,SortOrder
+Johor,Oil Palm,636481.1307,1
+Johor,Rubber,329160.8821,2
+Johor,Fruit,191544.8538,3
+Johor,Other,127654.8144,5
+Johor,Timber,0,4
+Kedah,Oil Palm,102789.534,1
+Kedah,Rubber,246144.4165,2
+Kedah,Fruit,5181.986155,3
+Kedah,Other,25256.79679,5
+Kedah,Timber,0,4
+Kelantan,Oil Palm,118376.519,1
+Kelantan,Rubber,366136.8575,2
+Kelantan,Fruit,12035.199,3
+Kelantan,Other,80474.78436,5
+Kelantan,Timber,0,4
+Melaka,Oil Palm,40450.74482,1
+Melaka,Rubber,76175.92285,2
+Melaka,Fruit,25.67214267,3
+Melaka,Other,1997.651891,5
+Melaka,Timber,0,4
+Negeri Sembilan,Oil Palm,198215.2311,1
+Negeri Sembilan,Rubber,125243.8314,2
+Negeri Sembilan,Fruit,69044.28248,3
+Negeri Sembilan,Other,49918.95455,5
+Negeri Sembilan,Timber,0,4
+Pahang,Oil Palm,859287.4195,1
+Pahang,Rubber,395523.4344,2
+Pahang,Fruit,3362.4375,3
+Pahang,Other,206997.0649,5
+Pahang,Timber,0,4
+Perak,Oil Palm,519775.5399,1
+Perak,Rubber,264043.3032,2
+Perak,Fruit,11373.18461,3
+Perak,Other,28050.60811,5
+Perak,Timber,0,4
+Perlis,Oil Palm,5788.28621,1
+Perlis,Rubber,3522.330334,2
+Perlis,Fruit,4945.843915,3
+Perlis,Other,1242.454345,5
+Perlis,Timber,0,4
+Penang,Oil Palm,21809.95864,1
+Penang,Rubber,5826.876185,2
+Penang,Fruit,0,3
+Penang,Other,69.69425904,5
+Penang,Timber,0,4
+Putrajaya,Oil Palm,101.4245058,1
+Putrajaya,Rubber,825.4618049,2
+Putrajaya,Fruit,0,3
+Putrajaya,Other,0,5
+Putrajaya,Timber,0,4
+Sabah,Oil Palm,1659015.164,1
+Sabah,Rubber,244200.646,2
+Sabah,Fruit,163792.3328,3
+Sabah,Timber,76752.48975,4
+Sabah,Other,324152.3007,5
+Sarawak,Oil Palm,1502921.697,1
+Sarawak,Rubber,43445.42597,2
+Sarawak,Fruit,74100.07684,3
+Sarawak,Other,502110.6269,4
+Sarawak,Timber,192832.3238,5
+Selangor,Oil Palm,206216.9057,1
+Selangor,Rubber,78289.70227,2
+Selangor,Fruit,7966.401821,3
+Selangor,Other,6142.907053,5
+Selangor,Timber,0,4
+Terengganu,Oil Palm,230499.9182,1
+Terengganu,Rubber,137290.1488,2
+Terengganu,Fruit,10960.23434,3
+Terengganu,Other,33034.56527,5
+Terengganu,Timber,0,4

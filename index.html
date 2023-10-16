@@ -20,7 +20,7 @@
     <img id="bg" src="img/green.png">
     <div class="slideshow">
       <div id="title" class="center slide mt-12">
-        <p class="text-8xl">World Deforestation</p>
+        <p class="text-8xl">Deforestation</p>
       </div>
       <div class="heading">
         <p>Global Data</p>
@@ -29,6 +29,9 @@
         <div class="pure-g">
           <div class="pure-u-24-24">
             <p class="subheading">Which countries have the most forest?</p>
+            <p class="text columns-1" style="margin-bottom: 2em;">
+              Forests account for a little over one-third (38%) of habitable land area on earth. This consists of around 26% of total (both habitable and uninhabitable) land area, which varies significantly between countries.
+            </p>
           </div>
         </div>
         <div class="pure-g">
@@ -39,7 +42,8 @@
             </div>
           </div>
           <p class="text columns-1" style="margin-bottom: 2em;">
-            Forests account for a little over one-third (38%) of habitable land area on earth. This consists of around 26% of total (both habitable and uninhabitable) land area, which varies significantly between countries.
+            <br>
+            <br>
             Countries with favorable conditions for tree growth, strong conservation policies, and low levels of deforestation tend to have higher tree densities. Conversely, countries with harsh climates, high levels of urbanization, and deforestation activities tend to have lower tree densities.
           </p>
           <div class="pure-u-2-24"></div>
@@ -55,15 +59,6 @@
               <div id="bar_chart2"></div>
             </div>
           </div>
-
-
-          <div class="pure-u-24-24">
-          <div class="pt-10">
-            <p class="text columns-1" style="margin-bottom: 2em;">
-              Malaysia and Australia serve as intriguing case studies for deforestation comparisons due to their distinct geographical, economic, and environmental characteristics. Malaysia faces deforestation challenges driven by palm oil production and agriculture, with global implications for biodiversity and climate. Meanwhile, Australia grapples with land clearing for agriculture and mining, affecting its unique ecosystems and indigenous communities. By examining these two nations, we can explore the diverse drivers, environmental impacts, policy responses, and international ramifications of deforestation, shedding light on strategies for sustainable land use and conservation in different contexts.
-            </p>
-          </div>
-        </div>
         </div>
       </div>
       <div class="heading">
@@ -72,46 +67,51 @@
   
       <div class="slide">
         <div class="pure-g">
-          <div class="pure-u-8-24">
-            <div class="pr-10">
-              <p class="subheading">Palm oil and logging</p>
-              <p class="text columns-1" style="margin-bottom: 2em;">
-                Malaysia is one of the world's largest producers and exporters of palm oil, a versatile and highly profitable crop used in various products. 
-                Malaysia also has a long history of timber production.
-                <br><br>
-                States like Johor, Pahang, and Sarawak have a high rate of deforestation for these reasons.
-              </p>
-            </div>
-  
-            <div class="pr-10">
-              <p class="subheading" style="margin-top: 0.6em;">Urbanization</p>
-              <p class="text columns-1">
-                Malaysia has experienced rapid urbanization, which can lead to deforestation as land is used for residential and commercial purposes.
-              </p>
-            </div>
-          </div>
-  
-          <div class="pure-u-16-24">
+          <div class="pure-u-24-24">
             <p class="subheading">Tree Cover Loss in Malaysia</p>
-            <div class="pt-5 center">
+            <p class="text columns-1" style="margin-bottom: 2em;">
+              Malaysia has experienced moderate levels of deforestation, with <strong>Johor</strong>, <strong>Pahang</strong>, and <strong>Negeri Sembilan</strong> losing out the most.
+            </p>
+          </div>
+          <div class="pure-u-24-24">
+            <div class="center">
             <div id="symbol_map_spec"></div>  
           </div>
           </div>
         </div>
         <div class="pure-g">
+          <div class="pure-u-8-24">
+            <div>
+              <p class="subheading pt-10">Plantations in Malaysia</p>
+              <p class="text columns-1 pt-5 pr-5" style="margin-bottom: 2em;">
+                Deforestation often results from clearing land for plantation agriculture. Malaysia dedicates a majority of its 
+                plantations to <strong class="palm">palm oil</strong>, while also allocating space for secondary crops such as 
+                <strong class="rubber">rubber</strong>, <strong class="fruit">fruit</strong>, and <strong class="timber">timber</strong>.
+              </p>
+            </div>
+            <div class="center pr-10">
+              <div id="dot_matrix_spec"></div>  
+            </div>
+          </div>
+          <div class="pure-u-16-24">
+            <p class="subheading pt-10 pl-10">Breakdown by state</p>
+            <div class="center pt-10">
+            <div id="stacked_bar_spec"></div>  
+          </div></div>
+        </div>
+        <div class="pure-g">
           <div class="pure-u-18-24">
-            <p class="subheading pt-10">Carbon Emissions by state</p>
+            <p class="subheading pt-10">Carbon Emissions over time
             <div class="pt-5">
             <div id="line_chart_spec"></div>  
           </div></div>
-
           <div class="pure-u-6-24">
             <div>
-              <p class="subheading pt-10">Anti-logging Laws</p>
+              <p class="subheading pt-10" >Anti-logging Laws</p>
               <p class="text columns-1" style="margin-bottom: 2em;">
                 When deforestation happens, carbon stored in trees is released into the atmosphere, contributing to climate change.
                 <br><br>
-                In 2015, Malaysia has passed laws aiming to deter illegal logging and reduce deforestation, and this had a significant effect.
+                Malaysia passed laws in 2015 to deter illegal logging and reduce deforestation, and this led to a significant reduction.
               </p>
             </div>
           </div>
@@ -120,22 +120,32 @@
     </div>
     <script type="text/javascript">
       // var spec = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/tree_cover_map.json";
-      var spec = "../js/test.json";
-      vegaEmbed('#symbol_map_spec', spec).then(function(result) {}).catch(console.error);
+      var spec = "../js/tree_cover_map.json";
+      vegaEmbed('#symbol_map_spec', spec, { "actions": false }).then(function(result) {}).catch(console.error);
 
-      var spec2 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/carbon_line_chart.json";
-      vegaEmbed('#line_chart_spec', spec2).then(function(result) {}).catch(console.error);
+      // var spec2 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/carbon_line_chart.json";
+      var spec2 = "../js/carbon_line_chart.json";
+      vegaEmbed('#line_chart_spec', spec2, { "actions": false }).then(function(result) {}).catch(console.error);
 
-      var spec3 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/forest_proportion_map.json";
-      vegaEmbed('#forest_map_spec', spec3).then(function(result) {}).catch(console.error);
+      // var spec3 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/forest_proportion_map.json";
+      var spec3 = "../js/forest_proportion_map.json";
+      vegaEmbed('#forest_map_spec', spec3, { "actions": false }).then(function(result) {}).catch(console.error);
 
       // var spec4 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/bar_chart.json";
       var spec4 = "../js/bar_chart.json";
-      vegaEmbed('#bar_chart1', spec4).then(function(result) {}).catch(console.error);
+      vegaEmbed('#bar_chart1', spec4, { "actions": false }).then(function(result) {}).catch(console.error);
 
       // var spec5 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/bar_chart2.json";
       var spec5 = "../js/bar_chart2.json";
-      vegaEmbed('#bar_chart2', spec5).then(function(result) {}).catch(console.error);
+      vegaEmbed('#bar_chart2', spec5, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      // var spec6 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/plantation_dot_matrix.json";
+      var spec6 = "../js/plantation_dot_matrix.json";
+      vegaEmbed('#dot_matrix_spec', spec6, { "actions": false }).then(function(result) {}).catch(console.error);
+
+      // var spec7 = "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/js/plantation_dot_matrix.json";
+      var spec7 = "../js/stacked_bar.json";
+      vegaEmbed('#stacked_bar_spec', spec7, { "actions": false }).then(function(result) {}).catch(console.error);
     </script>
   </body>
   <style>
@@ -159,6 +169,22 @@ width: 3000px;
 body {
 display: flex;
 justify-content: center;
+}
+
+.palm{
+  color: #ff892e
+}
+
+.rubber{
+  color: #636363
+}
+
+.fruit{
+  color: #ff3636
+}
+
+.timber{
+color: #8c564b;
 }
 
 .heading {

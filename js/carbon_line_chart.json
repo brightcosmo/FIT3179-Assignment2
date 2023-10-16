@@ -2,6 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
   "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/carbon_emissions_linechart.csv"},
+  "config": {
+    "background": "transparent",
+    "view": {
+        "stroke": null
+    }
+  },
   "width": 750,
   "height": 350,
   "layer": [
@@ -27,7 +33,7 @@
         "tooltip": [
           {"field": "subnational1", "type": "nominal", "title": "State"},
           {"field": "year", "type": "temporal", "title": "Year", "timeUnit": "year"},
-          {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Carbon Emissions (Mg CO2e)"}
+          {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Emissions (Mg CO2e)"}
         ]
       },
       "selection": {
@@ -46,19 +52,11 @@
       "encoding": {"x": {"datum": {"year": 2015}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": -5, "color": "black", "fontSize": 16, "font": "Roboto, sans-serif"},
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": -5, "color": "black", "fontSize": 14, "font": "Roboto, sans-serif"},
       "encoding": {
         "x": {"datum": {"year": 2015}, "type": "temporal"},
-        "text": {"value": "2015: Forest Ordinance Law"}
-      }
-    },
-    {
-      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": 15, "color": "black", "fontSize": 16, "font": "Roboto, sans-serif"},
-      "encoding": {
-        "x": {"datum": {"year": 2015}, "type": "temporal"},
-        "text": {"value": "to combat illegal logging"}
+        "text": {"value": "2015: Forest Ordinance Law passes"}
       }
     }
-    
   ]
 }

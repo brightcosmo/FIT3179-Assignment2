@@ -1,0 +1,88 @@
+iso,adm1,area__ha,gfw_planted_forests__type,,State,Crop,Area_ha
+MYS,Johor,561660.7705,Oil Palm,,Johor,Oil Palm,636481.1307
+MYS,Johor,310878.4413,Rubber,,Johor,Rubber,329160.8821
+MYS,Johor,191314.8901,Fruit,,Johor,Fruit,191544.8538
+MYS,Johor,127654.8144,Unknown,,Johor,Other,127654.8144
+MYS,Johor,74820.36026,Oil Palm,,Johor,Timber,0
+MYS,Johor,18282.44083,Rubber,,Kedah,Oil Palm,102789.534
+MYS,Johor,229.9636863,Fruit,,Kedah,Rubber,246144.4165
+MYS,Kedah,232721.5752,Rubber,,Kedah,Fruit,5181.986155
+MYS,Kedah,101575.6518,Oil Palm,,Kedah,Other,25256.79679
+MYS,Kedah,25256.79679,Unknown,,Kedah,Timber,0
+MYS,Kedah,13422.84125,Rubber,,Kelantan,Oil Palm,118376.519
+MYS,Kedah,5181.986155,Fruit,,Kelantan,Rubber,366136.8575
+MYS,Kedah,1213.882268,Oil Palm,,Kelantan,Fruit,12035.199
+MYS,Kelantan,248752.6497,Rubber,,Kelantan,Other,80474.78436
+MYS,Kelantan,117625.7789,Oil Palm,,Kelantan,Timber,0
+MYS,Kelantan,117384.2078,Rubber,,Melaka,Oil Palm,40450.74482
+MYS,Kelantan,80474.78436,Unknown,,Melaka,Rubber,76175.92285
+MYS,Kelantan,11940.20654,Fruit,,Melaka,Fruit,25.67214267
+MYS,Kelantan,750.7401429,Oil Palm,,Melaka,Other,1997.651891
+MYS,Kelantan,94.99246068,Fruit,,Melaka,Timber,0
+MYS,Melaka,73004.24002,Rubber,,Negeri Sembilan,Oil Palm,198215.2311
+MYS,Melaka,31471.05524,Oil Palm,,Negeri Sembilan,Rubber,125243.8314
+MYS,Melaka,8979.689586,Oil Palm,,Negeri Sembilan,Fruit,69044.28248
+MYS,Melaka,3171.68283,Rubber,,Negeri Sembilan,Other,49918.95455
+MYS,Melaka,1997.651891,Unknown,,Negeri Sembilan,Timber,0
+MYS,Melaka,25.67214267,Fruit,,Pahang,Oil Palm,859287.4195
+MYS,Negeri Sembilan,191011.4922,Oil Palm,,Pahang,Rubber,395523.4344
+MYS,Negeri Sembilan,87132.1454,Rubber,,Pahang,Fruit,3362.4375
+MYS,Negeri Sembilan,69044.28248,Fruit,,Pahang,Other,206997.0649
+MYS,Negeri Sembilan,49918.95455,Unknown,,Pahang,Timber,0
+MYS,Negeri Sembilan,38111.68597,Rubber,,Perak,Oil Palm,519775.5399
+MYS,Negeri Sembilan,7203.738939,Oil Palm,,Perak,Rubber,264043.3032
+MYS,Pahang,849626.3372,Oil Palm,,Perak,Fruit,11373.18461
+MYS,Pahang,350931.6963,Rubber,,Perak,Other,28050.60811
+MYS,Pahang,206997.0649,Unknown,,Perak,Timber,0
+MYS,Pahang,44591.73812,Rubber,,Perlis,Oil Palm,5788.28621
+MYS,Pahang,9661.082307,Oil Palm,,Perlis,Rubber,3522.330334
+MYS,Pahang,3362.4375,Fruit,,Perlis,Fruit,4945.843915
+MYS,Perak,472587.3694,Oil Palm,,Perlis,Other,1242.454345
+MYS,Perak,219477.3419,Rubber,,Perlis,Timber,0
+MYS,Perak,47188.17048,Oil Palm,,Penang,Oil Palm,21809.95864
+MYS,Perak,44565.96128,Rubber,,Penang,Rubber,5826.876185
+MYS,Perak,28050.60811,Unknown,,Penang,Fruit,0
+MYS,Perak,11373.18461,Fruit,,Penang,Other,69.69425904
+MYS,Perlis,5560.306907,Oil Palm,,Penang,Timber,0
+MYS,Perlis,4945.843915,Fruit,,Putrajaya,Oil Palm,101.4245058
+MYS,Perlis,2681.953235,Rubber,,Putrajaya,Rubber,825.4618049
+MYS,Perlis,1242.454345,Unknown,,Putrajaya,Fruit,0
+MYS,Perlis,840.3770985,Rubber,,Putrajaya,Other,0
+MYS,Perlis,227.9793031,Oil Palm,,Putrajaya,Timber,0
+MYS,Penang,20848.06459,Oil Palm,,Sabah,Oil Palm,1659015.164
+MYS,Penang,5826.876185,Rubber,,Sabah,Rubber,244200.646
+MYS,Penang,961.8940534,Oil Palm,,Sabah,Fruit,163792.3328
+MYS,Penang,69.69425904,Unknown,,Sabah,Timber,76752.48975
+MYS,Putrajaya,825.4618049,Rubber,,Sabah,Other,324152.3007
+MYS,Putrajaya,52.40198764,Oil Palm,,Sarawak,Oil Palm,1502921.697
+MYS,Putrajaya,49.02251813,Oil Palm,,Sarawak,Rubber,43445.42597
+MYS,Sabah,1629063.356,Oil Palm,,Sarawak,Fruit,74100.07684
+MYS,Sabah,324152.3007,Unknown,,Sarawak,Other,502110.6269
+MYS,Sabah,180795.0186,Rubber,,Sarawak,Timber,192832.3238
+MYS,Sabah,96718.4297,Fruit,,Selangor,Oil Palm,206216.9057
+MYS,Sabah,76752.48975,Wood fiber / Timber,,Selangor,Rubber,78289.70227
+MYS,Sabah,67073.90312,Fruit,,Selangor,Fruit,7966.401821
+MYS,Sabah,63405.62742,Rubber,,Selangor,Other,6142.907053
+MYS,Sabah,29951.80755,Oil Palm,,Selangor,Timber,0
+MYS,Sarawak,1498618.19,Oil Palm,,Terengganu,Oil Palm,230499.9182
+MYS,Sarawak,502110.6269,Unknown,,Terengganu,Rubber,137290.1488
+MYS,Sarawak,192832.3238,Wood fiber / Timber,,Terengganu,Fruit,10960.23434
+MYS,Sarawak,61240.57923,Fruit,,Terengganu,Other,33034.56527
+MYS,Sarawak,39668.28586,Rubber,,Terengganu,Timber,0
+MYS,Sarawak,12859.49761,Fruit,,,,
+MYS,Sarawak,4303.5074,Oil Palm,,,,
+MYS,Sarawak,3777.140109,Rubber,,,,
+MYS,Selangor,171298.0123,Oil Palm,,,,
+MYS,Selangor,59344.9305,Rubber,,,,
+MYS,Selangor,34918.89338,Oil Palm,,,,
+MYS,Selangor,18944.77177,Rubber,,,,
+MYS,Selangor,7043.149286,Fruit,,,,
+MYS,Selangor,6142.907053,Unknown,,,,
+MYS,Selangor,923.2525348,Fruit,,,,
+MYS,Terengganu,228046.8182,Oil Palm,,,,
+MYS,Terengganu,126160.4972,Rubber,,,,
+MYS,Terengganu,33034.56527,Unknown,,,,
+MYS,Terengganu,11129.65165,Rubber,,,,
+MYS,Terengganu,10856.58864,Fruit,,,,
+MYS,Terengganu,2453.099936,Oil Palm,,,,
+MYS,Terengganu,103.645695,Fruit,,,,

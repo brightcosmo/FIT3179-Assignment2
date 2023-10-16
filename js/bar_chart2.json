@@ -1,6 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Countries with the least dense forests (2014)",
+  "config": {
+    "background": "transparent",
+    "view": {
+        "stroke": null
+    }
+  },
   "data": {
     "values": [
       {"Country": "Bahrain", "Code": "BHR", "Year": 2014, "Tree_density": 4.544569434},
@@ -13,10 +19,14 @@
   },
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}},
+    "x": {"field": "Country", "type": "ordinal", "sort": {"field": "Tree_density", "order": "descending"}, "axis": {"labelAngle": 0}},
     "y": {"field": "Tree_density", "type": "quantitative", "title": "Tree Density (Trees per km)"},
-    "color": {"value": "lightgreen"}
+    "color": {"value": "lightgreen"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Tree_density", "type": "quantitative", "title": "Trees per km"}
+  ]
   },
-  "width": 450,
-  "height": 300
+  "width": 600,
+  "height": 400
 }

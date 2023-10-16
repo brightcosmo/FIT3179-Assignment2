@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "title": "Plantations breakdown by state",
+    "data": {
+        "url": "../data/plantation_barchart.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "y": {"field": "State", "type": "nominal", "title": "State", "sort": {"encoding": "x", "order": "descending"}},
+        "x": {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "sort": {"field": "SortOrder"}},
+        "color": {"field": "Crop", "type": "nominal", "title": "Crop",
+                  "scale": {
+                      "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
+                      "range": ["#ff892e", "#636363", "#ff3636", "#8c564b", "#7aff91"]
+                  },
+                  "legend": {"orient": "bottom", "title": "Crop"},
+                  "sort": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"]
+        },
+        "tooltip": [
+            {"field": "Crop", "type": "ordinal", "title": "Crop"},
+            {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "format": ".0f"}
+        ]
+    },
+    "config": {
+        "axis": {"grid": false},
+        "view": {"stroke": null}
+    }
+}

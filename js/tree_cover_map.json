@@ -1,18 +1,19 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Net change in tree cover in Malaysia (2001-2022)",
-  "width": 750,
-  "height": 350,
+  "width": 1000,
+  "height": 600,
   "projection": {"type": "equirectangular"},
   "config": {
+    "background": "transparent",
     "view": {
-      "stroke": "transparent"
+        "stroke": null
     }
   },
   "layer": [
     {
       "data": {
-          "url": "../data/malaysia_states.json",
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/malaysia_states.json",
           "format": {
               "type": "topojson",
               "feature": "ne_50m_ocean"
@@ -27,7 +28,7 @@
   },
   {
     "data": {
-        "url": "../data/malaysia_states.json",
+        "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/malaysia_states.json",
         "format": {
             "type": "topojson",
             "feature": "ne_50m_graticules_5"
@@ -36,12 +37,12 @@
     "mark": {
         "type": "geoshape",
         "fill": null,
-        "stroke": "#dbdbdb"
+        "stroke": "#eaeaea"
     }
 },
 {
   "data": {
-      "url": "../data/malaysia_states.json",
+      "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/malaysia_states.json",
       "format": {
           "type": "topojson",
           "feature": "ne_50m_admin_0_countries"
@@ -56,7 +57,7 @@
 },
         {
       "data": {
-          "url": "../data/malaysia_states.json",
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/malaysia_states.json",
           "format": {"type": "topojson", "feature": "gadm41_MYS_1"}
       },
       "transform": [
@@ -82,9 +83,11 @@
           "field": "Tree Cover Loss (%)",
           "type": "quantitative",
           "scale": {
+            "type": "threshold",
             "scheme": "redblue",
             "reverse": true,
-            "domain": [-5, 0, 40],
+            "range": ["#b9413d", "#d45f52", "#ea9178", "#f9d0bb", "#c5deec"],
+            "domain": [0, 10, 20, 30],
             "zero": true
           }
         },
@@ -93,13 +96,6 @@
           {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "Tree cover loss (%)"}
         ]
       }
-  },
-  {
-    "data": {
-        "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/ne_110m_graticules_5.json",
-        "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
-    },
-    "mark": {"type": "geoshape", "fill": null, "stroke": "white", "strokeWidth": 0.5}
   }
   ]
 }

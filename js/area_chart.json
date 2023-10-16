@@ -1,6 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "../data/forest-area-primary-planted.csv"},
+    "config": {
+      "background": "transparent",
+      "view": {
+          "stroke": null
+      }
+    },
     "transform": [
       {
         "filter": {"field": "Entity", "equal": "World"}

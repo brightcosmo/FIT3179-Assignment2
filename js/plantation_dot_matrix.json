@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 300,
+  "config": {
+    "background": "transparent",
+    "title": {
+        "fontSize": 24,
+        "fontWeight": "normal"
+    },
+    "view": {
+        "stroke": null
+    }
+},
+  "data": {
+    "url": "../data/plantation_waffle.csv"
+  },
+  "mark": {
+      "type": "circle",
+      "filled": true,
+      "size": 800
+  },
+  "encoding": {
+      "x": {
+          "field": "col",
+          "type": "quantitative",
+          "axis": null,
+          "sort": "-x"
+      },
+      "y": {
+          "field": "row",
+          "type": "quantitative",
+          "axis": null,
+          "sort": "-y"
+      },
+    "color": {
+      "field": "plantation_type",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
+        "range": ["#ff892e", "#636363", "#ff3636", "#8c564b", "#7aff91"]
+      },
+      "legend": {
+        "title": "",
+        "labelFontSize": 12,
+        "orient": "bottom"
+      }  }
+}
+}
