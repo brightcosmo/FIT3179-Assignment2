@@ -96,7 +96,8 @@
           "dy": -180,
           "dx": -45,
           "fontSize": 12,
-          "fontWeight":"bold"
+          "fontWeight":"bold",
+          "fontStyle": "italic"
       },
       "encoding": {
           "x": {
