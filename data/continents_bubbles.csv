@@ -1,0 +1,49 @@
+region, category, value
+North America,Tree cover loss (% of global total 2001–2015),21
+North America,Deforestation,1
+North America,Shifting agriculture,1
+North America,Forestry,56
+North America,Wildfire,40
+North America,Urbanization,2
+Latin America,Tree cover loss (% of global total 2001–2015),25
+Latin America,Deforestation,56
+Latin America,Shifting agriculture,31
+Latin America,Forestry,13
+Latin America,Wildfire,1
+Latin America,Urbanization,1
+Europe,Tree cover loss (% of global total 2001–2015),5
+Europe,Deforestation,0
+Europe,Shifting agriculture,1
+Europe,Forestry,99
+Europe,Wildfire,1
+Europe,Urbanization,0
+Africa,Tree cover loss (% of global total 2001–2015),13
+Africa,Deforestation,4
+Africa,Shifting agriculture,92
+Africa,Forestry,4
+Africa,Wildfire,1
+Africa,Urbanization,1
+Russia/China/South Asia,Tree cover loss (% of global total 2001–2015),20
+Russia/China/South Asia,Deforestation,1
+Russia/China/South Asia,Shifting agriculture,1
+Russia/China/South Asia,Forestry,41
+Russia/China/South Asia,Wildfire,58
+Russia/China/South Asia,Urbanization,1
+Southeast Asia,Tree cover loss (% of global total 2001–2015),13
+Southeast Asia,Deforestation,78
+Southeast Asia,Shifting agriculture,9
+Southeast Asia,Forestry,13
+Southeast Asia,Wildfire,1
+Southeast Asia,Urbanization,1
+Australia/Oceania,Tree cover loss (% of global total 2001–2015),3
+Australia/Oceania,Deforestation,7
+Australia/Oceania,Shifting agriculture,10
+Australia/Oceania,Forestry,29
+Australia/Oceania,Wildfire,53
+Australia/Oceania,Urbanization,1
+Global,Tree cover loss (% of global total 2001–2015),100
+Global,Deforestation,25
+Global,Shifting agriculture,21
+Global,Forestry,31
+Global,Wildfire,22
+Global,Urbanization,1
