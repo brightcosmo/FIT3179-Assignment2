@@ -34,16 +34,20 @@
           "field": "subnational1",
           "type": "nominal",
           "legend": {"title": "State"},
-          "sort": {"field": "carbon_gross_emissions", "order": "descending"},
-          "scale": {"scheme": "category20"}
+          "scale": {"range": ["#e6194b", "#3cb44b", "#ffe119", "#4363d8"]}
         },
         "tooltip": [
           {"field": "subnational1", "type": "nominal", "title": "State"},
           {"field": "year", "type": "temporal", "title": "Year", "timeUnit": "year"},
           {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Emissions (Mg CO2e)"}
-        ]
+        ],
+        "fillOpacity": {
+          "condition": {"selection": "hover", "value": 0.5},
+          "value": 1
+        }
       },
       "selection": {
+        "hover": {"type": "single", "on": "mouseover", "empty": "none"},
         "State": {
           "type": "multi",
           "fields": ["subnational1"],
@@ -69,7 +73,7 @@
     {
       "mark": {"type": "rect", "color": "#effffb",
       "width": 98,
-      "height": 20},
+      "height": 20,"stroke": null},
       "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
     },
     {
@@ -82,7 +86,7 @@
     {
       "mark": {"type": "rect", "color": "#effffb",
       "width": 120,
-      "height": 20},
+      "height": 20,"stroke": null},
       "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
     },
     {
