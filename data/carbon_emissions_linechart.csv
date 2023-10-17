@@ -10,7 +10,7 @@ Malaysia,Negeri Sembilan,666738,2001,5649208
 Malaysia,Kedah,951787,2001,1257422
 Malaysia,Selangor,782443,2001,4094673
 Malaysia,Melaka,165403,2001,816616
-Malaysia,Pulau Pinang,105622,2001,16438
+Malaysia,Penang,105622,2001,16438
 Malaysia,Perlis,82349,2001,114229
 Malaysia,Kuala Lumpur,27198,2001,16189
 Malaysia,Labuan,9066,2001,11563
@@ -26,7 +26,7 @@ Malaysia,Negeri Sembilan,666738,2002,6817518
 Malaysia,Kedah,951787,2002,3540028
 Malaysia,Selangor,782443,2002,3378792
 Malaysia,Melaka,165403,2002,796675
-Malaysia,Pulau Pinang,105622,2002,61336
+Malaysia,Penang,105622,2002,61336
 Malaysia,Perlis,82349,2002,58343
 Malaysia,Kuala Lumpur,27198,2002,55547
 Malaysia,Labuan,9066,2002,10525
@@ -42,7 +42,7 @@ Malaysia,Negeri Sembilan,666738,2003,2415427
 Malaysia,Kedah,951787,2003,2069481
 Malaysia,Selangor,782443,2003,1509357
 Malaysia,Melaka,165403,2003,439689
-Malaysia,Pulau Pinang,105622,2003,54152
+Malaysia,Penang,105622,2003,54152
 Malaysia,Perlis,82349,2003,19280
 Malaysia,Kuala Lumpur,27198,2003,22927
 Malaysia,Labuan,9066,2003,7148
@@ -58,7 +58,7 @@ Malaysia,Negeri Sembilan,666738,2004,2996328
 Malaysia,Kedah,951787,2004,3310479
 Malaysia,Selangor,782443,2004,3490271
 Malaysia,Melaka,165403,2004,485070
-Malaysia,Pulau Pinang,105622,2004,82698
+Malaysia,Penang,105622,2004,82698
 Malaysia,Perlis,82349,2004,36824
 Malaysia,Kuala Lumpur,27198,2004,75157
 Malaysia,Labuan,9066,2004,5786
@@ -74,7 +74,7 @@ Malaysia,Negeri Sembilan,666738,2005,4580737
 Malaysia,Kedah,951787,2005,3698004
 Malaysia,Selangor,782443,2005,3621544
 Malaysia,Melaka,165403,2005,1547516
-Malaysia,Pulau Pinang,105622,2005,112505
+Malaysia,Penang,105622,2005,112505
 Malaysia,Perlis,82349,2005,75352
 Malaysia,Kuala Lumpur,27198,2005,36953
 Malaysia,Labuan,9066,2005,13302
@@ -90,7 +90,7 @@ Malaysia,Negeri Sembilan,666738,2006,3269610
 Malaysia,Kedah,951787,2006,4106015
 Malaysia,Selangor,782443,2006,1770912
 Malaysia,Melaka,165403,2006,807212
-Malaysia,Pulau Pinang,105622,2006,95729
+Malaysia,Penang,105622,2006,95729
 Malaysia,Perlis,82349,2006,30347
 Malaysia,Kuala Lumpur,27198,2006,36568
 Malaysia,Labuan,9066,2006,11292
@@ -106,7 +106,7 @@ Malaysia,Negeri Sembilan,666738,2007,4845624
 Malaysia,Kedah,951787,2007,3179279
 Malaysia,Selangor,782443,2007,3646279
 Malaysia,Melaka,165403,2007,1396922
-Malaysia,Pulau Pinang,105622,2007,78606
+Malaysia,Penang,105622,2007,78606
 Malaysia,Perlis,82349,2007,34508
 Malaysia,Kuala Lumpur,27198,2007,26549
 Malaysia,Labuan,9066,2007,23850
@@ -122,7 +122,7 @@ Malaysia,Negeri Sembilan,666738,2008,4506273
 Malaysia,Kedah,951787,2008,5351493
 Malaysia,Selangor,782443,2008,2715750
 Malaysia,Melaka,165403,2008,910917
-Malaysia,Pulau Pinang,105622,2008,78580
+Malaysia,Penang,105622,2008,78580
 Malaysia,Perlis,82349,2008,31794
 Malaysia,Kuala Lumpur,27198,2008,27813
 Malaysia,Labuan,9066,2008,20062
@@ -138,7 +138,7 @@ Malaysia,Negeri Sembilan,666738,2009,9115080
 Malaysia,Kedah,951787,2009,4130121
 Malaysia,Selangor,782443,2009,6326792
 Malaysia,Melaka,165403,2009,1455432
-Malaysia,Pulau Pinang,105622,2009,151630
+Malaysia,Penang,105622,2009,151630
 Malaysia,Perlis,82349,2009,93921
 Malaysia,Kuala Lumpur,27198,2009,39754
 Malaysia,Labuan,9066,2009,18570
@@ -154,7 +154,7 @@ Malaysia,Negeri Sembilan,666738,2010,2531501
 Malaysia,Kedah,951787,2010,6951273
 Malaysia,Selangor,782443,2010,4036288
 Malaysia,Melaka,165403,2010,264055
-Malaysia,Pulau Pinang,105622,2010,165503
+Malaysia,Penang,105622,2010,165503
 Malaysia,Perlis,82349,2010,64461
 Malaysia,Kuala Lumpur,27198,2010,39292
 Malaysia,Labuan,9066,2010,12448
@@ -170,7 +170,7 @@ Malaysia,Negeri Sembilan,666738,2011,7957214
 Malaysia,Kedah,951787,2011,4426538
 Malaysia,Selangor,782443,2011,1394515
 Malaysia,Melaka,165403,2011,1261246
-Malaysia,Pulau Pinang,105622,2011,96167
+Malaysia,Penang,105622,2011,96167
 Malaysia,Perlis,82349,2011,26214
 Malaysia,Kuala Lumpur,27198,2011,17537
 Malaysia,Labuan,9066,2011,30160
@@ -186,7 +186,7 @@ Malaysia,Negeri Sembilan,666738,2012,12982002
 Malaysia,Kedah,951787,2012,5107978
 Malaysia,Selangor,782443,2012,2650491
 Malaysia,Melaka,165403,2012,1088913
-Malaysia,Pulau Pinang,105622,2012,116669
+Malaysia,Penang,105622,2012,116669
 Malaysia,Perlis,82349,2012,39986
 Malaysia,Kuala Lumpur,27198,2012,25988
 Malaysia,Labuan,9066,2012,65894
@@ -202,7 +202,7 @@ Malaysia,Negeri Sembilan,666738,2013,3280956
 Malaysia,Kedah,951787,2013,3816707
 Malaysia,Selangor,782443,2013,1287901
 Malaysia,Melaka,165403,2013,470081
-Malaysia,Pulau Pinang,105622,2013,49712
+Malaysia,Penang,105622,2013,49712
 Malaysia,Perlis,82349,2013,59672
 Malaysia,Kuala Lumpur,27198,2013,978
 Malaysia,Labuan,9066,2013,9577
@@ -218,7 +218,7 @@ Malaysia,Negeri Sembilan,666738,2014,7768059
 Malaysia,Kedah,951787,2014,8717694
 Malaysia,Selangor,782443,2014,7218670
 Malaysia,Melaka,165403,2014,2027517
-Malaysia,Pulau Pinang,105622,2014,154364
+Malaysia,Penang,105622,2014,154364
 Malaysia,Perlis,82349,2014,182505
 Malaysia,Kuala Lumpur,27198,2014,26992
 Malaysia,Labuan,9066,2014,37099
@@ -234,7 +234,7 @@ Malaysia,Negeri Sembilan,666738,2015,4891627
 Malaysia,Kedah,951787,2015,8274821
 Malaysia,Selangor,782443,2015,1964783
 Malaysia,Melaka,165403,2015,1105845
-Malaysia,Pulau Pinang,105622,2015,118358
+Malaysia,Penang,105622,2015,118358
 Malaysia,Perlis,82349,2015,124123
 Malaysia,Kuala Lumpur,27198,2015,16435
 Malaysia,Labuan,9066,2015,44576
@@ -250,7 +250,7 @@ Malaysia,Negeri Sembilan,666738,2016,8353096
 Malaysia,Kedah,951787,2016,9518175
 Malaysia,Selangor,782443,2016,3989146
 Malaysia,Melaka,165403,2016,2256715
-Malaysia,Pulau Pinang,105622,2016,168551
+Malaysia,Penang,105622,2016,168551
 Malaysia,Perlis,82349,2016,240288
 Malaysia,Kuala Lumpur,27198,2016,21972
 Malaysia,Labuan,9066,2016,65514
@@ -266,7 +266,7 @@ Malaysia,Negeri Sembilan,666738,2017,7330371
 Malaysia,Kedah,951787,2017,10250117
 Malaysia,Selangor,782443,2017,3100241
 Malaysia,Melaka,165403,2017,1866030
-Malaysia,Pulau Pinang,105622,2017,133247
+Malaysia,Penang,105622,2017,133247
 Malaysia,Perlis,82349,2017,177435
 Malaysia,Kuala Lumpur,27198,2017,54600
 Malaysia,Labuan,9066,2017,20015
@@ -282,7 +282,7 @@ Malaysia,Negeri Sembilan,666738,2018,6174179
 Malaysia,Kedah,951787,2018,8404860
 Malaysia,Selangor,782443,2018,3369929
 Malaysia,Melaka,165403,2018,1768802
-Malaysia,Pulau Pinang,105622,2018,85190
+Malaysia,Penang,105622,2018,85190
 Malaysia,Perlis,82349,2018,109162
 Malaysia,Kuala Lumpur,27198,2018,36194
 Malaysia,Labuan,9066,2018,16358
@@ -298,7 +298,7 @@ Malaysia,Negeri Sembilan,666738,2019,4796904
 Malaysia,Kedah,951787,2019,6893634
 Malaysia,Selangor,782443,2019,2897072
 Malaysia,Melaka,165403,2019,1877576
-Malaysia,Pulau Pinang,105622,2019,84421
+Malaysia,Penang,105622,2019,84421
 Malaysia,Perlis,82349,2019,126378
 Malaysia,Kuala Lumpur,27198,2019,16472
 Malaysia,Labuan,9066,2019,10357
@@ -314,7 +314,7 @@ Malaysia,Negeri Sembilan,666738,2020,3383042
 Malaysia,Kedah,951787,2020,5029638
 Malaysia,Selangor,782443,2020,1733194
 Malaysia,Melaka,165403,2020,1039320
-Malaysia,Pulau Pinang,105622,2020,77488
+Malaysia,Penang,105622,2020,77488
 Malaysia,Perlis,82349,2020,159911
 Malaysia,Kuala Lumpur,27198,2020,6270
 Malaysia,Labuan,9066,2020,16944
@@ -330,7 +330,7 @@ Malaysia,Negeri Sembilan,666738,2021,3740996
 Malaysia,Kedah,951787,2021,4312246
 Malaysia,Selangor,782443,2021,2816861
 Malaysia,Melaka,165403,2021,943834
-Malaysia,Pulau Pinang,105622,2021,89066
+Malaysia,Penang,105622,2021,89066
 Malaysia,Perlis,82349,2021,97765
 Malaysia,Kuala Lumpur,27198,2021,11037
 Malaysia,Labuan,9066,2021,16950
@@ -346,7 +346,7 @@ Malaysia,Negeri Sembilan,666738,2022,2788519
 Malaysia,Kedah,951787,2022,3372310
 Malaysia,Selangor,782443,2022,1394662
 Malaysia,Melaka,165403,2022,796033
-Malaysia,Pulau Pinang,105622,2022,73630
+Malaysia,Penang,105622,2022,73630
 Malaysia,Perlis,82349,2022,144106
 Malaysia,Kuala Lumpur,27198,2022,6327
 Malaysia,Labuan,9066,2022,22610
