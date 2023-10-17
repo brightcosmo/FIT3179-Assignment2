@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 350,
-  "height": 350,
+  "width": 450,
+  "height": 450,
   "title": "Components of Net Change in Forests",
   "data": {
     "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/forest_donuts.csv"
