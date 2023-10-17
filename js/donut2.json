@@ -1,0 +1,96 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 500,
+    "title": "Components of Net Change in Forests (Ha)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/forest_donuts.csv"
+    },
+    "config": {
+      "background":"transparent",
+      "axis": {
+        "labelFont": "sans-serif",
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "grid": false
+      },
+      "view": {"stroke": null}
+    },
+    "params": [
+        {
+            "name": "Country_Selection",
+            "value": "United States of America",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "Malaysia",
+                    "United States of America",
+                    "Indonesia",
+                    "Sweden",
+                    "Norway",
+                    "Finland",
+                    "Saudi Arabia",
+                    "Kuwait",
+                    "Bahrain"
+                ],
+                "name": "Country "
+            }
+        }
+    ],    
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative", "stack": true},
+      "color": {
+        "field": "category",
+        "title": "Category",
+        "legend": null,
+        "type": "nominal",
+        "scale": {
+          "domain": ["Stable Forest", "Disturbed Forest", "Forest Gain", "Forest Loss"],
+          "range": ["#518751", "#ffc966", "#8f8fff", "#FFB6C1"]
+        }
+      }
+    },
+    "layer": [
+      {
+        "transform": [{"filter": "datum.country == Country_Selection"}],
+        "mark": {
+          "type": "arc",
+          "innerRadius": 100,
+          "tooltip": true,
+          "outerRadius": 160
+        },
+        "encoding": {
+          "tooltip": [
+            {"field": "category", "type": "nominal", "title": "Category"},
+            {"field": "value", "type": "quantitative", "title": "Value"}
+          ]
+        }
+      },
+      {
+        "transform": [{ "filter": "datum.country == Country_Selection" }],
+        "mark": { "type": "text", "radius": 210, "size": 14 },
+        "encoding": {
+          "text": { "condition": {
+            "test": "datum.value > 0",
+            "type": "nominal",
+            "field": "category"
+          }}
+        }
+      },
+      {
+        "transform": [{"filter": "datum.country == Country_Selection"}],
+        "mark": {"type": "text", "radius": 210, "size": 14, "dy": 15},
+        "encoding": {
+          "text": {
+            "condition": {
+              "test": "datum.value > 0",
+              "type": "quantitative",
+              "field": "value",
+              "format": ",.0f"
+            }
+          }
+        }
+      }    
+    ]
+  }
+  
