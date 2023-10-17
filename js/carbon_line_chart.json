@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
-  "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/carbon_emissions_linechart.csv"},
+  "data": {"url": "../data/carbon_emissions_linechart.csv"},
   "config": {
     "background": "transparent",
     "axis": {
