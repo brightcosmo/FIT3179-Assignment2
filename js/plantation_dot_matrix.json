@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 300,
   "height": 300,
-  "title": "Plantation Types in Malaysia",
+  "title": "For every 100 plantations in Malaysia...",
   "config": {
     "background":"transparent",
     "axis": {
@@ -16,7 +16,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/plantation_waffle.csv"
   },
-  "mark": {
+  "layer": [
+    {
+    "mark": {
       "type": "circle",
       "filled": true,
       "size": 800
@@ -46,5 +48,6 @@
         "labelFontSize": 12,
         "orient": "bottom"
       }  }
-}
+}}
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
-  "data": {"url": "../data/carbon_emissions_linechart.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/carbon_emissions_linechart.csv"},
   "config": {
     "background": "transparent",
     "axis": {
@@ -54,39 +54,39 @@
       ]
       },
     {
-      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "mark": {"type": "rule", "color": "black", "strokeDash": [1, 2]},
       "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "mark": {"type": "rule", "color": "black", "strokeDash": [1, 2]},
       "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "mark": {"type": "rule", "color": "black", "strokeDash": [1, 2]},
       "encoding": {"x": {"datum": {"year": 2009}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "mark": {"type": "rect", "color": "#effffb",
       "width": 98,
       "height": 20},
       "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "mark": {"type": "rect", "color": "#effffb",
       "width": 150,
       "height": 40,
     "stroke": null},
       "encoding": {"x": {"datum": {"year": 2009}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "mark": {"type": "rect", "color": "#effffb",
       "width": 120,
       "height": 20},
       "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
     },
     {
       "data": {
-          "url": "../data/clc_annotations.csv"
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/clc_annotations.csv"
       },
       "mark": {
           "type": "text",
