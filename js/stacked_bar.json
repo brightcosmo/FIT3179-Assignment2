@@ -28,7 +28,7 @@
             "title": "Crop",
             "scale": {
                 "domain": ["Oil Palm", "Rubber", "Fruit", "Timber", "Other"],
-                "range": ["#FFD700", "#ff892e", "#FF0000", "#964B00", "#ADD8E6"]
+                "range": ["#FFD700", "#ff892e", "#FF0000", "#964B00", "#8C8C8C"]
             },
             "legend":{"orient": "right"}},
             "tooltip": [
