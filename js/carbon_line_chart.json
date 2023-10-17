@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
-  "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/carbon_emissions_linechart.csv"},
+  "data": {"url": "../data/carbon_emissions_linechart.csv"},
   "config": {
-    "background":"transparent",
+    "background": "transparent",
     "axis": {
       "labelFont": "sans-serif",
       "labelFontSize": 12,
@@ -16,7 +16,7 @@
   "height": 350,
   "layer": [
     {
-      "mark": {"type": "line", "point": true},
+      "mark": {"type": "area", "point": true},
       "encoding": {
         "x": {
           "field": "year",
@@ -32,7 +32,9 @@
         "color": {
           "field": "subnational1",
           "type": "nominal",
-          "legend": {"title": "State"}
+          "legend": {"title": "State"},
+          "sort": {"field": "carbon_gross_emissions", "order": "descending"},
+          "scale": {"scheme": "category20"}
         },
         "tooltip": [
           {"field": "subnational1", "type": "nominal", "title": "State"},
@@ -50,16 +52,61 @@
       "transform": [
         {"filter": {"selection": "State"}}
       ]
+      },
+    {
+      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
     },
     {
       "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
-      "encoding": {"x": {"datum": {"year": 2015}, "type": "temporal"}}
+      "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
     },
     {
-      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": -5, "color": "black", "fontSize": 14, "font": "Roboto, sans-serif"},
+      "mark": {"type": "rule", "color": "black", "strokeDash": [2, 2]},
+      "encoding": {"x": {"datum": {"year": 2009}, "type": "temporal"}}
+    },
+    {
+      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "width": 98,
+      "height": 20},
+      "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
+    },
+    {
+      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "width": 150,
+      "height": 40,
+    "stroke": null},
+      "encoding": {"x": {"datum": {"year": 2009}, "type": "temporal"}}
+    },
+    {
+      "mark": {"type": "rect", "color": "rgba(255, 255, 255, 0.1)",
+      "width": 120,
+      "height": 20},
+      "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
+    },
+    {
+      "data": {
+          "url": "../data/clc_annotations.csv"
+      },
+      "mark": {
+          "type": "text",
+          "lineBreak": "\\",
+          "align": "left",
+          "dy": -180,
+          "dx": -45,
+          "fontSize": 12,
+          "fontWeight":"bold"
+      },
       "encoding": {
-        "x": {"datum": {"year": 2015}, "type": "temporal"},
-        "text": {"value": "2015: Forest Ordinance Law passes"}
+          "x": {
+              "field": "date",
+              "timeUnit": "yearmonthdate",
+              "type": "temporal"
+          },
+          "text": {
+              "field": "annotation",
+              "type": "nominal"
+          }
       }
     }
   ]
