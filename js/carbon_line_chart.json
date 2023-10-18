@@ -65,7 +65,7 @@
     {
       "mark": {"type": "rect", "color": "#effffb",
       "width": 98,
-      "height": 20,"stroke": null},
+      "height": 40,"stroke": null},
       "encoding": {"x": {"datum": {"year": 2003}, "type": "temporal"}}
     },
     {
@@ -78,7 +78,7 @@
     {
       "mark": {"type": "rect", "color": "#effffb",
       "width": 120,
-      "height": 20,"stroke": null},
+      "height": 40,"stroke": null},
       "encoding": {"x": {"datum": {"year": 2016}, "type": "temporal"}}
     },
     {
