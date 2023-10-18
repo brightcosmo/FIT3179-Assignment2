@@ -64,14 +64,8 @@
           {"field": "category", "type": "nominal", "title": "Category"},
           {"field": "value", "type": "quantitative", "title": "Value"}
         ]
-      },
-      "fillOpacity": {
-        "condition": {"selection": "hover", "value": 0.5},
-        "value": 1
-      },
-    "selection": {
-      "hover": {"type": "single", "on": "mouseover", "empty": "none"}
-    }},
+      }
+    },
     {
       "transform": [{ "filter": "datum.country == Country_Selection" }],
       "mark": { "type": "text", "radius": 210, "size": 14 },
