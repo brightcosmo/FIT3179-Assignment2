@@ -39,6 +39,7 @@
     
     .heading {
     font-family: 'Roboto Slab', serif;
+    font-weight:800;
     padding: 1.5rem;
     font-size: 3rem;
     /* 48px */
@@ -57,6 +58,7 @@
     
     .subheading {
     font-family: 'Roboto Slab', serif;
+    font-weight:600;
     font-size: 1.875rem;
     line-height: 2.25rem;
     }
@@ -69,6 +71,7 @@
     #title {
     height: 300px;
     font-family: 'Roboto Slab', serif;
+    font-weight:900;
     }
     
     .text {
