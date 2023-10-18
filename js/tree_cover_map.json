@@ -115,24 +115,6 @@
       },
       "layer": [
         {
-          "transform": [
-            {
-              "calculate": "'Only Putrajaya had a net'",
-              "as": "text_annotation_raw"
-            },
-            {
-              "calculate": "split(datum.text_annotation_raw, ';')",
-              "as": "text_annotation"
-            },
-            {
-              "calculate": "'gain in tree cover (-2.95% loss)'",
-              "as": "text_annotation_raw2"
-            },
-            {
-              "calculate": "split(datum.text_annotation_raw2, ';')",
-              "as": "text_annotation2"
-            }
-          ],
           "layer": [
             {
               "mark": {

@@ -28,7 +28,7 @@
           "field": "carbon_gross_emissions",
           "type": "quantitative",
           "axis": {"title": "Gross Carbon Emissions (Mg CO2e)"},
-          "sort": ["Sarawak", "Sabah", "Pahang", "Johor", "Kelantan", "Perak", "Terengganu", "Negeri Sembilan", "Kedah", "Selangor", "Melaka", "Penang", "Perlis", "Kuala Lumpur", "Labuan", "Putrajaya"]
+          "sort": ["Sarawak", "Sabah", "Pahang", "Other"]
         },
         "color": {
           "field": "subnational1",

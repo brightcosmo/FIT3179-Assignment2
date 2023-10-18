@@ -1,0 +1,2 @@
+origin_longitude,origin_latitude,dest_longitude,dest_latitude,text_annotation
+-180, 0, 180, 0, Countries closer to the equator are tropical countries with more forest

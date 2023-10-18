@@ -94,8 +94,49 @@
               {"field": "Forest_cover", "type": "quantitative", "title": "Forest Cover (%)"}
             ]
           }
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/fpm_annotations.csv"
+          },
+          "layer": [
+            {
+              "layer": [
+                {
+                  "mark": {
+                    "type": "rule",
+                    "thickness": 1,
+                    "fillOpacity": 0.5},
+                  "encoding": {
+                    "longitude": {
+                      "field": "origin_longitude",
+                      "type": "quantitative"
+                    },
+                    "latitude": {
+                      "field": "origin_latitude",
+                      "type": "quantitative"
+                    },
+                    "longitude2": {"field": "dest_longitude"},
+                    "latitude2": {"field": "dest_latitude"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "align": "left",
+                    "dx": -120,
+                    "dy": 15,
+                    "fontStyle": "italic",
+                    "fontWeight": "bold",
+                    "fontSize": 12,
+                    "color": "#000000"
+                  },
+                  "encoding": { "text": { "field": "text_annotation" } }
+                }
+              ]
+            }
+          ]
         }
-        
         
       ]
     }

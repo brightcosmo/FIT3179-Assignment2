@@ -13,7 +13,7 @@
     #bg {
     position: relative;
     width: 3000px;
-    height: 4800px;
+    height: 4900px;
     }
     
     body {
@@ -36,6 +36,22 @@
     .timber{
     color: #964B00;
     }
+
+    .disturb{
+      color: #ffc966;
+      }
+    
+    .loss{
+      color: #ffb6c1;
+      }
+
+    .dense{
+      color: #006400;
+      }
+    
+    .notdense{
+      color: #90ee90;
+      }
     
     .heading {
     font-family: 'Roboto Slab', serif;
