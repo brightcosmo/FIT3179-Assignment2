@@ -97,7 +97,7 @@
         },
         {
           "data": {
-            "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/fpm_annotations.csv"
+            "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-Assignment2/main/data/fpm_annotations.csv"
           },
           "layer": [
             {
