@@ -30,8 +30,15 @@
         "tooltip": [
             {"field": "Country", "type": "nominal"},
             {"field": "Tree_density", "type": "quantitative", "title": "Trees per km", "format": ".2f"}
-        ]
-    },
+          ],
+          "fillOpacity": {
+            "condition": {"selection": "hover", "value": 0.5},
+            "value": 1
+          },
+          "selection": {
+          "hover": {"type": "single", "on": "mouseover", "empty": "none"}
+          }
+            },
     "width": 350,
     "height": 200
   }  
