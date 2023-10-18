@@ -47,16 +47,8 @@
         }
       },
       "selection": {
-        "hover": {"type": "single", "on": "mouseover", "empty": "none"},
-        "State": {
-          "type": "multi",
-          "fields": ["subnational1"],
-          "bind": "legend"
-        }
-      },
-      "transform": [
-        {"filter": {"selection": "State"}}
-      ]
+        "hover": {"type": "single", "on": "mouseover", "empty": "none"}
+      }
       },
     {
       "mark": {"type": "rule", "color": "black", "strokeDash": [1, 2]},

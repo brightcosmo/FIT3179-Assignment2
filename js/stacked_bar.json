@@ -35,8 +35,15 @@
                 {"field": "Crop", "type": "ordinal", "title": "Crop"},
                 {"field": "Area_ha", "type": "quantitative", "title": "Area (ha)", "format": ".2f"}
             ],
-            "order": {"field": "SortOrder"}
-        },
+            "order": {"field": "SortOrder"},
+            "fillOpacity": {
+                "condition": {"selection": "hover", "value": 0.5},
+                "value": 1
+              }
+            },
+            "selection": {
+              "hover": {"type": "single", "on": "mouseover", "empty": "none"}
+            },
     "config": {
         "background":"transparent",
         "axis": {
